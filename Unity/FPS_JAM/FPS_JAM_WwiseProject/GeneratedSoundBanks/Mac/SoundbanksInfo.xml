@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="12" SoundbankVersion="135">
+	<RootPaths>
+		<ProjectRoot>C:\Users\BigMonster\Desktop\JAM\JAM_Internacional\Unity\FPS_JAM\FPS_JAM_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\BigMonster\Desktop\JAM\JAM_Internacional\Unity\FPS_JAM\FPS_JAM_WwiseProject\.cache\Mac\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\BigMonster\Desktop\JAM\JAM_Internacional\Unity\FPS_JAM\FPS_JAM_WwiseProject\GeneratedSoundBanks\Mac\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\BigMonster\Desktop\JAM\JAM_Internacional\Unity\FPS_JAM\FPS_JAM_WwiseProject\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="2579957443" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\SecondaryScene</ObjectPath>
+			<ShortName>SecondaryScene</ShortName>
+			<Path>SecondaryScene.bnk</Path>
+			<IncludedEvents>
+				<Event Id="2356394572" Name="Blaster_Shoot" ObjectPath="\Events\Default Work Unit\Weapons\Blaster_Shoot" DurationType="OneShot" DurationMin="1.966405" DurationMax="2.083333"/>
+				<Event Id="2385628198" Name="Footsteps" ObjectPath="\Events\Default Work Unit\Player\Footsteps" DurationType="OneShot" DurationMin="0.111000" DurationMax="0.314063"/>
+				<Event Id="3725660253" Name="Launcher_Shoot" ObjectPath="\Events\Default Work Unit\Weapons\Launcher_Shoot" DurationType="OneShot" DurationMin="2.226427" DurationMax="2.358818"/>
+				<Event Id="2040071657" Name="Shotgun_Shoot" ObjectPath="\Events\Default Work Unit\Weapons\Shotgun_Shoot" DurationType="OneShot" DurationMin="1.297827" DurationMax="1.375000"/>
+				<Event Id="4006394725" Name="Weapon_Cooling" ObjectPath="\Events\Default Work Unit\Weapons\Weapon_Cooling" DurationType="OneShot" DurationMin="5.496521" DurationMax="5.496521"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="92161787" Language="SFX">
+					<ShortName>Weapon_Cooling(reemplazar).wav</ShortName>
+					<Path>SFX\Weapon_Cooling(reemplazar)_10C4C929.wem</Path>
+				</File>
+				<File Id="293115992" Language="SFX">
+					<ShortName>FOOTSTEPS\Mt_StoneMarble_Pl_ClimbWeak_FootR00.wav</ShortName>
+					<Path>SFX\FOOTSTEPS\Mt_StoneMarble_Pl_ClimbWeak_FootR00_10C4C929.wem</Path>
+				</File>
+				<File Id="293712972" Language="SFX">
+					<ShortName>FOOTSTEPS\Mt_StoneMarble_Pl_ClimbWeak_FootAccent00.wav</ShortName>
+					<Path>SFX\FOOTSTEPS\Mt_StoneMarble_Pl_ClimbWeak_FootAccent00_10C4C929.wem</Path>
+				</File>
+				<File Id="413992067" Language="SFX">
+					<ShortName>WEAPON SHOT_03.wav</ShortName>
+					<Path>SFX\WEAPON SHOT_03_10C4C929.wem</Path>
+				</File>
+				<File Id="492820606" Language="SFX">
+					<ShortName>WEAPON SHOT_02.wav</ShortName>
+					<Path>SFX\WEAPON SHOT_02_10C4C929.wem</Path>
+				</File>
+				<File Id="598489229" Language="SFX">
+					<ShortName>WEAPON SHOT_01.wav</ShortName>
+					<Path>SFX\WEAPON SHOT_01_10C4C929.wem</Path>
+				</File>
+				<File Id="668122874" Language="SFX">
+					<ShortName>FOOTSTEPS\Mt_StoneMarble_Pl_ClimbStrong_FootR00.wav</ShortName>
+					<Path>SFX\FOOTSTEPS\Mt_StoneMarble_Pl_ClimbStrong_FootR00_10C4C929.wem</Path>
+				</File>
+				<File Id="899310293" Language="SFX">
+					<ShortName>FOOTSTEPS\Mt_StoneMarble_Pl_ClimbWeak_FootL00.wav</ShortName>
+					<Path>SFX\FOOTSTEPS\Mt_StoneMarble_Pl_ClimbWeak_FootL00_10C4C929.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

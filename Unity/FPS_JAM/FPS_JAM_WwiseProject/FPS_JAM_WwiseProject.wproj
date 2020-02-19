@@ -19,6 +19,22 @@
 						<Value Platform="Windows"></Value>
 					</ValueList>
 				</Property>
+				<Property Name="LicenseKey" Type="string" Value="PHByb2plY3QgaWQ9Ijc5MjQiIG1hc2s9IllCWVk0NDU3IiBlbmM9IjAiPjxsaWNl
+bnNlIGlkPSIxIiBuYW1lPSJXd2lzZSIgdHlwZT0iMyIgcGxhdGZvcm1zPSIyLDMs
+NCwxMCwxMywxNCIgZXhwaXJlcz0iMjAyMC0wNC0wMSIgIC8+PGxpY2Vuc2UgaWQ9
+IjIyIiBuYW1lPSJMZXZlbCBBIExpY2Vuc2UiIHR5cGU9IjMiIHBsYXRmb3Jtcz0i
+MiwzLDQsMTAsMTMsMTQiIGV4cGlyZXM9IjIwMjAtMDQtMDEiICAvPjxsaWNlbnNl
+IGlkPSIyMSIgbmFtZT0iTWFpbnRlbmFuY2UiIHR5cGU9IjMiIHBsYXRmb3Jtcz0i
+MiwzLDQsMTAsMTMsMTQiIGV4cGlyZXM9IjIwMjAtMDQtMDEiICAvPjxsaWNlbnNl
+IGlkPSIyNSIgbmFtZT0iQWxsIFd3aXNlIFBsdWctSW5zIiB0eXBlPSIzIiAgZXhw
+aXJlcz0iMjAyMC0wNC0wMSIgIC8+PC9wcm9qZWN0Pg==|A5EyELvbiJoTchYvz3m
+0bi/MFjWiFhUirM++r3SGQoTviqbZnv0cdnGq9O74e//fLVlmbtP6gzYOj8Nhk9+
+8SvJrg3zwMbJ11lfykkJq3w99qNScM97DaGvHM4NtyiHOQXHzwCP1snqhHjkncp1
+HytiCxexQml999O4XqeK22VK706JcvI6Pax8gpxlJgUmQEvBITeY+PW+Xc8Z+GEk
+bXSAQWNHihC1UKhGSzp70xruuSRKu+Z0kEfD2RE3mZksFHoOGUyYiwWaqn2gZGbF
+Yo4OlqJiCbMw1HWItqhz/Q2V75+5OsKPjBZm4vNrSW/rIRUsiOo+ZFa3I5UEtDdg
+zKw==
+"/>
 				<Property Name="ExternalSourcesOutputPath" Type="string">
 					<ValueList>
 						<Value Platform="Mac">GeneratedSoundBanks\Mac\</Value>

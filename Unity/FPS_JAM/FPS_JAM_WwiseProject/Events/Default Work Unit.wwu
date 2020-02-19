@@ -1,6 +1,72 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{B572BA10-B00B-4048-9949-0EE42D14D6C9}" SchemaVersion="97">
 	<Events>
-		<WorkUnit Name="Default Work Unit" ID="{B572BA10-B00B-4048-9949-0EE42D14D6C9}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{B572BA10-B00B-4048-9949-0EE42D14D6C9}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="Weapons" ID="{10580B04-9142-41F9-8527-6E861EF99489}" ShortID="775240097">
+					<ChildrenList>
+						<Event Name="Blaster_Shoot" ID="{C7CB011F-9AB5-4507-B3A1-22EF2B141B07}">
+							<ChildrenList>
+								<Action Name="" ID="{40F3B356-ABC6-4EF9-B2A4-C87759B7A69F}" ShortID="999426696">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Blaster_Shoot" ID="{E39689EE-FB5D-4936-89EE-9031B72155BE}" WorkUnitID="{44BD1634-9851-40A6-A86D-F2BD24254EF7}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Shotgun_Shoot" ID="{DB844FED-D916-4BE6-A255-72E4FE13381A}">
+							<ChildrenList>
+								<Action Name="" ID="{B366B865-3807-4CCC-AD96-1228A2002B34}" ShortID="701453681">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Shotgun_Shoot" ID="{66E4F4AE-4947-4D21-9DB6-8AE7EF7FD633}" WorkUnitID="{44BD1634-9851-40A6-A86D-F2BD24254EF7}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Launcher_Shoot" ID="{40DC7E35-989A-45DA-A54F-7056C9702ECA}">
+							<ChildrenList>
+								<Action Name="" ID="{78F97166-5ACB-4CC2-81B0-FEB96EE4DA2C}" ShortID="391452838">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Launcher_Shoot" ID="{82E8A17C-D4B1-4E07-8AFC-B8BBE329A92C}" WorkUnitID="{44BD1634-9851-40A6-A86D-F2BD24254EF7}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Weapon_Cooling" ID="{95DE4D0E-A75D-4B97-8525-0C7777DBA168}">
+							<ChildrenList>
+								<Action Name="" ID="{BB07EDCA-4BE6-476F-B7EE-B3EE70B83847}" ShortID="144642822">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Blaster_Cooling" ID="{0DF44D80-CC71-4069-9F99-A6E495DB4B64}" WorkUnitID="{44BD1634-9851-40A6-A86D-F2BD24254EF7}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Player" ID="{BC7CDF26-0D2F-4742-9DA2-15F39C249C76}" ShortID="647956122">
+					<ChildrenList>
+						<Event Name="Footsteps" ID="{093498EB-DA66-490B-808A-01521F4A728F}">
+							<ChildrenList>
+								<Action Name="" ID="{E2260644-3214-4449-8588-1CA3E07C5E6C}" ShortID="997330505">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Footsteps" ID="{F01639D8-2F8C-4D65-931D-E67FEF593D9F}" WorkUnitID="{44BD1634-9851-40A6-A86D-F2BD24254EF7}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>

@@ -171,7 +171,11 @@ MonoBehaviour:
   ammoUsageRateWhileCharging: 1
   muzzleFlashPrefab: {fileID: 748781637555137343, guid: 4f5d4e5eaa0e5104791549cea3dc3f23,
     type: 3}
-  shootSFX: {fileID: 8300000, guid: be87267ec54c5264daffd2ffeb91d6a7, type: 3}
+  shootSFX:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 1b24672ac6dba9b49acd335870a54dd9,
+      type: 2}
   changeWeaponSFX: {fileID: 8300000, guid: 7b83d61917ac1224f942a0609b1221f2, type: 3}
 --- !u!114 &8745372878802205896
 MonoBehaviour:
@@ -199,7 +203,7 @@ AudioSource:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2225486910712267859}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 243115921504442520, guid: fcc71635aab95ff4fbdf1880bf2afa2f,
     type: 2}

@@ -78,7 +78,7 @@ public class WeaponController : MonoBehaviour
     [Tooltip("Prefab of the muzzle flash")]
     public GameObject muzzleFlashPrefab;
     [Tooltip("sound played when shooting")]
-    public AudioClip shootSFX;
+    public AK.Wwise.Event shootSFX;
     [Tooltip("Sound played when changing to this weapon")]
     public AudioClip changeWeaponSFX;
 
@@ -294,9 +294,10 @@ public class WeaponController : MonoBehaviour
         m_LastTimeShot = Time.time;
 
         // play shoot SFX
-        if (shootSFX)
+        if (shootSFX != null)
         {
-            m_ShootAudioSource.PlayOneShot(shootSFX);
+            //m_ShootAudioSource.PlayOneShot(shootSFX);
+            shootSFX.Post(gameObject);
         }
     }
 

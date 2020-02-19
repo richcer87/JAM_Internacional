@@ -12,14 +12,140 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab7ec45fc29d2064a8cb265fa881c721, type: 3}
   m_Name: AkWwiseProjectData
   m_EditorClassIdentifier: 
-  AcousticTextureWwu: []
-  AuxBusWwu: []
-  BankWwu: []
-  EventWwu: []
-  RtpcWwu: []
-  StateWwu: []
-  SwitchWwu: []
-  TriggerWwu: []
-  ExpandedItems: []
+  AcousticTextureWwu:
+  - PhysicalPath: Virtual Acoustics\Default Work Unit.wwu
+    ParentPath: Default Work Unit
+    guid: ec8b9ff20157af4ab357c31dea5b44be
+    GuidInternal: 
+    m_lastTime: -8586195554055120173
+    List: []
+  AuxBusWwu:
+  - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
+    ParentPath: Default Work Unit
+    guid: 137256ead2af8840948163e3dacf5a92
+    GuidInternal: 
+    m_lastTime: -8586195554054540502
+    List:
+    - name: Master Audio Bus
+      guid: d8a41415a61d2a41a17e75ca0c2149f3
+      id: 3803692087
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+      Path: Default Work Unit\Master Audio Bus
+  BankWwu:
+  - PhysicalPath: SoundBanks\Default Work Unit.wwu
+    ParentPath: Default Work Unit
+    guid: 402ea8251d6f9b4c9a101685e3920e59
+    GuidInternal: 
+    m_lastTime: -8586194663872283187
+    List:
+    - name: SecondaryScene
+      guid: 123601216dea2d4da2372d00240edc53
+      id: 2579957443
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SecondaryScene
+        ObjectType: 7
+      Path: Default Work Unit\SecondaryScene
+  EventWwu:
+  - PhysicalPath: Events\Default Work Unit.wwu
+    ParentPath: Default Work Unit
+    guid: 10ba72b50bb0484099490ee42d14d6c9
+    GuidInternal: 
+    m_lastTime: -8586194592577002446
+    List:
+    - name: Blaster_Shoot
+      guid: 1f01cbc7b59a0745b3a122ef2b141b07
+      id: 2356394572
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Weapons
+        ObjectType: 4
+      - ElementName: Blaster_Shoot
+        ObjectType: 3
+      Path: Default Work Unit\Weapons\Blaster_Shoot
+      maxAttenuation: 0
+      maxDuration: 2.083333
+      minDuration: 1.966405
+    - name: Launcher_Shoot
+      guid: 357edc409a98da45a54f7056c9702eca
+      id: 3725660253
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Weapons
+        ObjectType: 4
+      - ElementName: Launcher_Shoot
+        ObjectType: 3
+      Path: Default Work Unit\Weapons\Launcher_Shoot
+      maxAttenuation: 0
+      maxDuration: 2.358818
+      minDuration: 2.226427
+    - name: Shotgun_Shoot
+      guid: ed4f84db16d9e64ba25572e4fe13381a
+      id: 2040071657
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Weapons
+        ObjectType: 4
+      - ElementName: Shotgun_Shoot
+        ObjectType: 3
+      Path: Default Work Unit\Weapons\Shotgun_Shoot
+      maxAttenuation: 0
+      maxDuration: 1.375
+      minDuration: 1.297827
+    - name: Weapons
+      guid: 040b58104291f94185276e861ef99489
+      id: 1467963052
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Weapons
+        ObjectType: 4
+      - ElementName: Weapons
+        ObjectType: 3
+      Path: Default Work Unit\Weapons\Weapons
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+  RtpcWwu:
+  - PhysicalPath: Game Parameters\Default Work Unit.wwu
+    ParentPath: Default Work Unit
+    guid: dc2bdcf286ff314daf210c3496ffb226
+    GuidInternal: 
+    m_lastTime: -8586195554057518781
+    List: []
+  StateWwu:
+  - PhysicalPath: States\Default Work Unit.wwu
+    ParentPath: Default Work Unit
+    guid: abbb074e7191f4419a6a2f28291704be
+    GuidInternal: 
+    m_lastTime: -8586195554056919140
+    List: []
+  SwitchWwu:
+  - PhysicalPath: Switches\Default Work Unit.wwu
+    ParentPath: Default Work Unit
+    guid: 362dbb0157aab147b5ef347a741fccab
+    GuidInternal: 
+    m_lastTime: -8586195554057129021
+    List: []
+  TriggerWwu:
+  - PhysicalPath: Triggers\Default Work Unit.wwu
+    ParentPath: Default Work Unit
+    guid: 309c94e6663ad84596a6b0ddae28cd5b
+    GuidInternal: 
+    m_lastTime: -8586195554058128432
+    List: []
+  ExpandedItems:
+  - /FPS_JAM_WwiseProject
+  - /FPS_JAM_WwiseProject/Events
+  - /FPS_JAM_WwiseProject/Events/Default Work Unit
+  - /FPS_JAM_WwiseProject/Events/Default Work Unit/Weapons
   autoPopulateEnabled: 1
   CurrentPluginConfig: 

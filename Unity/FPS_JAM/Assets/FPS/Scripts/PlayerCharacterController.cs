@@ -57,6 +57,7 @@ public class PlayerCharacterController : MonoBehaviour
     public float crouchingSharpness = 10f;
 
     [Header("Audio")]
+    public AK.Wwise.Event Footsteps;
     [Tooltip("Amount of footstep sounds played when moving one meter")]
     public float footstepSFXFrequency = 1f;
     [Tooltip("Amount of footstep sounds played when moving one meter while sprinting")]
@@ -309,7 +310,8 @@ public class PlayerCharacterController : MonoBehaviour
                 if (m_footstepDistanceCounter >= 1f / chosenFootstepSFXFrequency)
                 {
                     m_footstepDistanceCounter = 0f;
-                    audioSource.PlayOneShot(footstepSFX);
+                    //audioSource.PlayOneShot(footstepSFX);
+                    Footsteps.Post(gameObject);
                 }
 
                 // keep track of distance traveled for footsteps sound

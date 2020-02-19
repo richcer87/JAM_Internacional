@@ -31,7 +31,7 @@ public class OverheatBehavior : MonoBehaviour
 
     [Header("Sound")]
     [Tooltip("Sound played when a cell are cooling")]
-    public AudioClip coolingCellsSound;
+    public AK.Wwise.Event coolingCellsSound;
     [Tooltip("Curve for ammo to volume ratio")]
     public AnimationCurve ammoToVolumeRatioCurve;
 
@@ -65,7 +65,7 @@ public class OverheatBehavior : MonoBehaviour
         DebugUtility.HandleErrorIfNullGetComponent<WeaponController, OverheatBehavior>(m_Weapon, this, gameObject);
 
         m_AudioSource = gameObject.AddComponent<AudioSource>();
-        m_AudioSource.clip = coolingCellsSound;
+        //m_AudioSource.clip = coolingCellsSound;
         m_AudioSource.outputAudioMixerGroup = AudioUtility.GetAudioGroup(AudioUtility.AudioGroups.WeaponOverheat);
     }
 
@@ -86,19 +86,20 @@ public class OverheatBehavior : MonoBehaviour
         }
 
         // cooling sound
-        if (coolingCellsSound)
+        if (coolingCellsSound != null)
         {
-            if (!m_AudioSource.isPlaying
-                && currentAmmoRatio != 1
+            if (
+                currentAmmoRatio != 1
                 && m_Weapon.isWeaponActive
                 && m_Weapon.isCooling)
             {
-                m_AudioSource.Play();
+                //m_AudioSource.Play();
+                coolingCellsSound.Post(gameObject);
             }
-            else if (m_AudioSource.isPlaying
-                && (currentAmmoRatio == 1 || !m_Weapon.isWeaponActive || !m_Weapon.isCooling))
+            else if ( (currentAmmoRatio == 1 || !m_Weapon.isWeaponActive || !m_Weapon.isCooling))
             {
-                m_AudioSource.Stop();
+                //m_AudioSource.Stop();
+                coolingCellsSound.Stop(gameObject);
                 return;
             }
 

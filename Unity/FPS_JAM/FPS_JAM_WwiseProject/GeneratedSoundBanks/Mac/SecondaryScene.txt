@@ -1,0 +1,17 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2040071657	Shotgun_Shoot			\Default Work Unit\Weapons\Shotgun_Shoot	
+	2356394572	Blaster_Shoot			\Default Work Unit\Weapons\Blaster_Shoot	
+	2385628198	Footsteps			\Default Work Unit\Player\Footsteps	
+	3725660253	Launcher_Shoot			\Default Work Unit\Weapons\Launcher_Shoot	
+	4006394725	Weapon_Cooling			\Default Work Unit\Weapons\Weapon_Cooling	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	92161787	Blaster_Cooling	C:\Users\BigMonster\Desktop\JAM\JAM_Internacional\Unity\FPS_JAM\FPS_JAM_WwiseProject\.cache\Mac\SFX\Weapon_Cooling(reemplazar)_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Blaster\Blaster_Cooling		527730
+	293115992	Mt_StoneMarble_Pl_ClimbWeak_FootR00	C:\Users\BigMonster\Desktop\JAM\JAM_Internacional\Unity\FPS_JAM\FPS_JAM_WwiseProject\.cache\Mac\SFX\FOOTSTEPS\Mt_StoneMarble_Pl_ClimbWeak_FootR00_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Mt_StoneMarble_Pl_ClimbWeak_FootR00		28532
+	293712972	Mt_StoneMarble_Pl_ClimbWeak_FootAccent00	C:\Users\BigMonster\Desktop\JAM\JAM_Internacional\Unity\FPS_JAM\FPS_JAM_WwiseProject\.cache\Mac\SFX\FOOTSTEPS\Mt_StoneMarble_Pl_ClimbWeak_FootAccent00_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Mt_StoneMarble_Pl_ClimbWeak_FootAccent00		30214
+	413992067	Launcher_Shoot	C:\Users\BigMonster\Desktop\JAM\JAM_Internacional\Unity\FPS_JAM\FPS_JAM_WwiseProject\.cache\Mac\SFX\WEAPON SHOT_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Launcher\Launcher_Shoot		220064
+	492820606	Shotgun_Shoot	C:\Users\BigMonster\Desktop\JAM\JAM_Internacional\Unity\FPS_JAM\FPS_JAM_WwiseProject\.cache\Mac\SFX\WEAPON SHOT_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Shotgun\Shotgun_Shoot		132064
+	598489229	Blaster_Shoot	C:\Users\BigMonster\Desktop\JAM\JAM_Internacional\Unity\FPS_JAM\FPS_JAM_WwiseProject\.cache\Mac\SFX\WEAPON SHOT_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Blaster\Blaster_Shoot		200064
+	668122874	Mt_StoneMarble_Pl_ClimbStrong_FootR00	C:\Users\BigMonster\Desktop\JAM\JAM_Internacional\Unity\FPS_JAM\FPS_JAM_WwiseProject\.cache\Mac\SFX\FOOTSTEPS\Mt_StoneMarble_Pl_ClimbStrong_FootR00_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Mt_StoneMarble_Pl_ClimbStrong_FootR00		10720
+	899310293	Mt_StoneMarble_Pl_ClimbWeak_FootL00	C:\Users\BigMonster\Desktop\JAM\JAM_Internacional\Unity\FPS_JAM\FPS_JAM_WwiseProject\.cache\Mac\SFX\FOOTSTEPS\Mt_StoneMarble_Pl_ClimbWeak_FootL00_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Mt_StoneMarble_Pl_ClimbWeak_FootL00		28862
+
