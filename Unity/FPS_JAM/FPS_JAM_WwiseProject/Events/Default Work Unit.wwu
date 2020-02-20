@@ -66,6 +66,13 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
+				<Folder Name="Enemies" ID="{8CB0E014-A03C-446B-B0C8-62B08C31EBB5}" ShortID="883756150">
+					<ChildrenList>
+						<Folder Name="Hoverbot" ID="{EAA5036E-E007-47AD-B17A-D5BB5354B862}" ShortID="285436261"/>
+						<Folder Name="Turret" ID="{F522F895-D309-4030-A1C7-6A1E0F403668}" ShortID="458802672"/>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Pickups" ID="{6077B7A3-A75B-4EC2-B72A-B60AA8256E14}" ShortID="985037211"/>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
