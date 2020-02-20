@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 683, y: 498}
   m_MaxSize: {x: 14004, y: 14048}
   vertical: 0
-  controlID: 193
+  controlID: 100
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -265,8 +265,8 @@ MonoBehaviour:
     y: 0
     width: 1103
     height: 571
-  m_MinSize: {x: 204, y: 224}
-  m_MaxSize: {x: 4004, y: 4024}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 17}
@@ -363,20 +363,20 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/FPS/Audio/SFX/Player
+    - Assets/FPS/Scripts
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/FPS/Audio/SFX/Player
+  - Assets/FPS/Scripts
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\BigMonster\Desktop\JAM\JAM_Internacional\Unity\FPS_JAM
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 575}
-    m_SelectedIDs: 86360000
-    m_LastClickedID: 13958
-    m_ExpandedIDs: 00000000e23300001636000098360000a836000066370000023800004e38000058390000a63b0000463c0000703d00001c40000038400000e04000001a4100004642000000ca9a3b
+    scrollPos: {x: 0, y: 829}
+    m_SelectedIDs: b4510000
+    m_LastClickedID: 20916
+    m_ExpandedIDs: 000000005e4e000060500000da500000e85000009651000028520000705200006c5300008c550000205600003a570000b2590000cc5900006c5a0000a05a0000b65b000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -404,7 +404,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000e23300001636000098360000a836000066370000023800004e38000058390000a63b0000463c0000703d00001c40000038400000e04000001a41000046420000
+    m_ExpandedIDs: 000000005e4e000060500000da500000e85000009651000028520000705200006c5300008c550000205600003a570000b2590000cc5900006c5a0000a05a0000b65b0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -522,10 +522,10 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 540}
-      m_SelectedIDs: b8cdffff
-      m_LastClickedID: -12872
-      m_ExpandedIDs: d8fbffff
+      scrollPos: {x: 0, y: 660}
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: 50fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -581,9 +581,9 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -36.67732, y: -5.051521, z: 16.27524}
+    m_Target: {x: -20.039682, y: -5.8124337, z: 13.510151}
     speed: 2
-    m_Value: {x: -36.67732, y: -5.051521, z: 16.27524}
+    m_Value: {x: -20.039682, y: -5.8124337, z: 13.510151}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -611,13 +611,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: 0.100746766, y: -0.14450765, z: 0.014791344, w: 0.9842504}
+    m_Target: {x: 0.11574762, y: 0.2944993, z: -0.035960227, w: 0.9479344}
     speed: 2
-    m_Value: {x: 0.100746766, y: -0.14450765, z: 0.014791344, w: 0.9842504}
+    m_Value: {x: 0.11574762, y: 0.2944993, z: -0.035960227, w: 0.9479344}
   m_Size:
-    m_Target: 7.966505
+    m_Target: 19.108965
     speed: 2
-    m_Value: 7.966505
+    m_Value: 19.108965
   m_Ortho:
     m_Target: 0
     speed: 2

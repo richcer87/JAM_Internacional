@@ -57,19 +57,18 @@ public class PlayerCharacterController : MonoBehaviour
     public float crouchingSharpness = 10f;
 
     [Header("Audio")]
-    public AK.Wwise.Event Footsteps;
     [Tooltip("Amount of footstep sounds played when moving one meter")]
     public float footstepSFXFrequency = 1f;
     [Tooltip("Amount of footstep sounds played when moving one meter while sprinting")]
     public float footstepSFXFrequencyWhileSprinting = 1f;
     [Tooltip("Sound played for footsteps")]
-    public AudioClip footstepSFX;
+    public AK.Wwise.Event footstepSFX;
     [Tooltip("Sound played when jumping")]
-    public AudioClip jumpSFX;
+    public AK.Wwise.Event jumpSFX;
     [Tooltip("Sound played when landing")]
-    public AudioClip landSFX;
+    public AK.Wwise.Event landSFX;
     [Tooltip("Sound played when taking damage froma fall")]
-    public AudioClip fallDamageSFX;
+    public AK.Wwise.Event fallDamageSFX;
 
     [Header("Fall Damage")]
     [Tooltip("Whether the player will recieve damage when hitting the ground at high speed")]
@@ -171,12 +170,14 @@ public class PlayerCharacterController : MonoBehaviour
                 m_Health.TakeDamage(dmgFromFall, null);
 
                 // fall damage SFX
-                audioSource.PlayOneShot(fallDamageSFX);
+                // audioSource.PlayOneShot(fallDamageSFX);
+                fallDamageSFX.Post(gameObject);
             }
             else
             {
                 // land SFX
-                audioSource.PlayOneShot(landSFX);
+                //audioSource.PlayOneShot(landSFX);
+                landSFX.Post(gameObject);
             }
         }
 
@@ -293,7 +294,8 @@ public class PlayerCharacterController : MonoBehaviour
                         characterVelocity += Vector3.up * jumpForce;
 
                         // play sound
-                        audioSource.PlayOneShot(jumpSFX);
+                        //audioSource.PlayOneShot(jumpSFX);
+                        jumpSFX.Post(gameObject);
 
                         // remember last time we jumped because we need to prevent snapping to ground for a short time
                         m_LastTimeJumped = Time.time;
@@ -311,7 +313,7 @@ public class PlayerCharacterController : MonoBehaviour
                 {
                     m_footstepDistanceCounter = 0f;
                     //audioSource.PlayOneShot(footstepSFX);
-                    Footsteps.Post(gameObject);
+                    footstepSFX.Post(gameObject);
                 }
 
                 // keep track of distance traveled for footsteps sound

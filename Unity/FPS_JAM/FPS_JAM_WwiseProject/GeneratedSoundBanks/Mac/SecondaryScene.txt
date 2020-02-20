@@ -1,17 +1,42 @@
 Event	ID	Name			Wwise Object Path	Notes
+	124877840	Turret_Death			\Default Work Unit\Enemies\Turret\Turret_Death	
+	848010948	Hoover_Shoot			\Default Work Unit\Enemies\Hoverbot\Hoover_Shoot	
 	2040071657	Shotgun_Shoot			\Default Work Unit\Weapons\Shotgun_Shoot	
 	2356394572	Blaster_Shoot			\Default Work Unit\Weapons\Blaster_Shoot	
 	2385628198	Footsteps			\Default Work Unit\Player\Footsteps	
+	2530127952	Turret_Alert			\Default Work Unit\Enemies\Turret\Turret_Alert	
+	2888394459	Turret_Shoot			\Default Work Unit\Enemies\Turret\Turret_Shoot	
+	2899905971	Hoover_Death			\Default Work Unit\Enemies\Hoverbot\Hoover_Death	
+	3554861522	Pickup_Health			\Default Work Unit\Pickups\Pickup_Health	
 	3725660253	Launcher_Shoot			\Default Work Unit\Weapons\Launcher_Shoot	
 	4006394725	Weapon_Cooling			\Default Work Unit\Weapons\Weapon_Cooling	
+	4187423031	Hoover_Alert			\Default Work Unit\Enemies\Hoverbot\Hoover_Alert	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	92161787	Blaster_Cooling	C:\Users\BigMonster\Desktop\JAM\JAM_Internacional\Unity\FPS_JAM\FPS_JAM_WwiseProject\.cache\Mac\SFX\Weapon_Cooling(reemplazar)_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Blaster\Blaster_Cooling		527730
+	31564101	Jetpack_Use	C:\Users\BigMonster\Desktop\JAM\JAM_Internacional\Unity\FPS_JAM\FPS_JAM_WwiseProject\.cache\Mac\SFX\JetPackUseTriggerA_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Jetpack\Jetpack_Use		152064
+	143808469	Blaster_Cooling	C:\Users\BigMonster\Desktop\JAM\JAM_Internacional\Unity\FPS_JAM\FPS_JAM_WwiseProject\.cache\Mac\SFX\Cooling PistonA_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Blaster\Blaster_Cooling		256064
+	185192701	EnemyShotA	C:\Users\BigMonster\Desktop\JAM\JAM_Internacional\Unity\FPS_JAM\FPS_JAM_WwiseProject\.cache\Mac\SFX\Hoover Shoot\EnemyShotA_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Hoverbot\Shoot_Hooverbot\EnemyShotA		116064
+	217380904	Jetpack_Loop	C:\Users\BigMonster\Desktop\JAM\JAM_Internacional\Unity\FPS_JAM\FPS_JAM_WwiseProject\.cache\Mac\SFX\JetPackUseLoop_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Jetpack\Jetpack_Loop		600064
+	219180270	EnemyShotD	C:\Users\BigMonster\Desktop\JAM\JAM_Internacional\Unity\FPS_JAM\FPS_JAM_WwiseProject\.cache\Mac\SFX\Turret Shoot\EnemyShotD_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Turret\Turret Shoot\EnemyShotD		116064
 	293115992	Mt_StoneMarble_Pl_ClimbWeak_FootR00	C:\Users\BigMonster\Desktop\JAM\JAM_Internacional\Unity\FPS_JAM\FPS_JAM_WwiseProject\.cache\Mac\SFX\FOOTSTEPS\Mt_StoneMarble_Pl_ClimbWeak_FootR00_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Mt_StoneMarble_Pl_ClimbWeak_FootR00		28532
 	293712972	Mt_StoneMarble_Pl_ClimbWeak_FootAccent00	C:\Users\BigMonster\Desktop\JAM\JAM_Internacional\Unity\FPS_JAM\FPS_JAM_WwiseProject\.cache\Mac\SFX\FOOTSTEPS\Mt_StoneMarble_Pl_ClimbWeak_FootAccent00_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Mt_StoneMarble_Pl_ClimbWeak_FootAccent00		30214
+	392932597	Jetpack_Stop	C:\Users\BigMonster\Desktop\JAM\JAM_Internacional\Unity\FPS_JAM\FPS_JAM_WwiseProject\.cache\Mac\SFX\JetPackUseTriggerB_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Jetpack\Jetpack_Stop		152064
 	413992067	Launcher_Shoot	C:\Users\BigMonster\Desktop\JAM\JAM_Internacional\Unity\FPS_JAM\FPS_JAM_WwiseProject\.cache\Mac\SFX\WEAPON SHOT_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Launcher\Launcher_Shoot		220064
+	465111060	EnemyDeathA	C:\Users\BigMonster\Desktop\JAM\JAM_Internacional\Unity\FPS_JAM\FPS_JAM_WwiseProject\.cache\Mac\SFX\Hoover Death\EnemyDeathA_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Hoverbot\Death_Hooverbot\EnemyDeathA		204064
 	492820606	Shotgun_Shoot	C:\Users\BigMonster\Desktop\JAM\JAM_Internacional\Unity\FPS_JAM\FPS_JAM_WwiseProject\.cache\Mac\SFX\WEAPON SHOT_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Shotgun\Shotgun_Shoot		132064
+	537468479	EnemyShotC	C:\Users\BigMonster\Desktop\JAM\JAM_Internacional\Unity\FPS_JAM\FPS_JAM_WwiseProject\.cache\Mac\SFX\Turret Shoot\EnemyShotC_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Turret\Turret Shoot\EnemyShotC		116064
+	556663600	Launcher_Charge_BuildUp	C:\Users\BigMonster\Desktop\JAM\JAM_Internacional\Unity\FPS_JAM\FPS_JAM_WwiseProject\.cache\Mac\SFX\LauncherChargeBuild_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Launcher\Launcher_Charge_BuildUp		488064
 	598489229	Blaster_Shoot	C:\Users\BigMonster\Desktop\JAM\JAM_Internacional\Unity\FPS_JAM\FPS_JAM_WwiseProject\.cache\Mac\SFX\WEAPON SHOT_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Blaster\Blaster_Shoot		200064
+	604180773	EnemyDeathB	C:\Users\BigMonster\Desktop\JAM\JAM_Internacional\Unity\FPS_JAM\FPS_JAM_WwiseProject\.cache\Mac\SFX\Hoover Death\EnemyDeathB_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Hoverbot\Death_Hooverbot\EnemyDeathB		204064
+	636068831	EnemyAlertD	C:\Users\BigMonster\Desktop\JAM\JAM_Internacional\Unity\FPS_JAM\FPS_JAM_WwiseProject\.cache\Mac\SFX\Turret Alert\EnemyAlertD_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Turret\Turret Alert\EnemyAlertD		140064
 	668122874	Mt_StoneMarble_Pl_ClimbStrong_FootR00	C:\Users\BigMonster\Desktop\JAM\JAM_Internacional\Unity\FPS_JAM\FPS_JAM_WwiseProject\.cache\Mac\SFX\FOOTSTEPS\Mt_StoneMarble_Pl_ClimbStrong_FootR00_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Mt_StoneMarble_Pl_ClimbStrong_FootR00		10720
+	693593281	EnemyAlertC	C:\Users\BigMonster\Desktop\JAM\JAM_Internacional\Unity\FPS_JAM\FPS_JAM_WwiseProject\.cache\Mac\SFX\Turret Alert\EnemyAlertC_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Turret\Turret Alert\EnemyAlertC		140064
+	712233072	Health	C:\Users\BigMonster\Desktop\JAM\JAM_Internacional\Unity\FPS_JAM\FPS_JAM_WwiseProject\.cache\Mac\SFX\HealthPickup_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pickups\Health		140064
+	748147063	EnemyAlertB	C:\Users\BigMonster\Desktop\JAM\JAM_Internacional\Unity\FPS_JAM\FPS_JAM_WwiseProject\.cache\Mac\SFX\Hoover Alert\EnemyAlertB_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Hoverbot\Alert_Hooverbot\EnemyAlertB		140064
+	754265927	Death_Turret	C:\Users\BigMonster\Desktop\JAM\JAM_Internacional\Unity\FPS_JAM\FPS_JAM_WwiseProject\.cache\Mac\SFX\EnemyDeathC_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Turret\Death_Turret		204064
+	897352756	Shotgun_Cooling	C:\Users\BigMonster\Desktop\JAM\JAM_Internacional\Unity\FPS_JAM\FPS_JAM_WwiseProject\.cache\Mac\SFX\Cooling PistonB_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Shotgun\Shotgun_Cooling		256064
 	899310293	Mt_StoneMarble_Pl_ClimbWeak_FootL00	C:\Users\BigMonster\Desktop\JAM\JAM_Internacional\Unity\FPS_JAM\FPS_JAM_WwiseProject\.cache\Mac\SFX\FOOTSTEPS\Mt_StoneMarble_Pl_ClimbWeak_FootL00_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Mt_StoneMarble_Pl_ClimbWeak_FootL00		28862
+	978798090	Launcher_Charge_Loop	C:\Users\BigMonster\Desktop\JAM\JAM_Internacional\Unity\FPS_JAM\FPS_JAM_WwiseProject\.cache\Mac\SFX\LauncherChargeBuild_7818946D.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Launcher\Launcher_Charge_Loop		47838
+	1014984021	EnemyAlertA	C:\Users\BigMonster\Desktop\JAM\JAM_Internacional\Unity\FPS_JAM\FPS_JAM_WwiseProject\.cache\Mac\SFX\Hoover Alert\EnemyAlertA_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Hoverbot\Alert_Hooverbot\EnemyAlertA		140064
+	1033947677	EnemyShotB	C:\Users\BigMonster\Desktop\JAM\JAM_Internacional\Unity\FPS_JAM\FPS_JAM_WwiseProject\.cache\Mac\SFX\Hoover Shoot\EnemyShotB_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Hoverbot\Shoot_Hooverbot\EnemyShotB		116064
 

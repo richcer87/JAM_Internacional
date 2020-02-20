@@ -18,10 +18,10 @@ public class EnemyMobile : MonoBehaviour
     [Tooltip("The random hit damage effects")]
     public ParticleSystem[] randomHitSparks;
     public ParticleSystem[] onDetectVFX;
-    public AudioClip onDetectSFX;
+    public AK.Wwise.Event onDetectSFX;
 
     [Header("Sound")]
-    public AudioClip MovementSound;
+    public AK.Wwise.Event MovementSound;
     public MinMaxFloat PitchDistortionMovementSpeed;
 
     public AIState aiState { get; private set; }
@@ -50,8 +50,9 @@ public class EnemyMobile : MonoBehaviour
         // adding a audio source to play the movement sound on it
         m_AudioSource = GetComponent<AudioSource>();
         DebugUtility.HandleErrorIfNullGetComponent<AudioSource, EnemyMobile>(m_AudioSource, this, gameObject);
-        m_AudioSource.clip = MovementSound;
-        m_AudioSource.Play();
+        // m_AudioSource.clip = MovementSound;
+        // m_AudioSource.Play();
+        MovementSound.Post(gameObject);
     }
 
     void Update()
@@ -137,9 +138,10 @@ public class EnemyMobile : MonoBehaviour
             onDetectVFX[i].Play();
         }
 
-        if (onDetectSFX)
+        if (onDetectSFX != null)
         {
-            AudioUtility.CreateSFX(onDetectSFX, transform.position, AudioUtility.AudioGroups.EnemyDetection, 1f);
+            // AudioUtility.CreateSFX(onDetectSFX, transform.position, AudioUtility.AudioGroups.EnemyDetection, 1f);
+            onDetectSFX.Post(gameObject);
         }
 
         animator.SetBool(k_AnimAlertedParameter, true);

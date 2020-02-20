@@ -12,7 +12,7 @@ public class Pickup : MonoBehaviour
     public float rotatingSpeed = 360f;
 
     [Tooltip("Sound played on pickup")]
-    public AudioClip pickupSFX;
+    public AK.Wwise.Event pickupSFX;
     [Tooltip("VFX spawned on pickup")]
     public GameObject pickupVFXPrefab;
 
@@ -66,9 +66,10 @@ public class Pickup : MonoBehaviour
         if (m_HasPlayedFeedback)
             return;
 
-        if (pickupSFX)
+        if (pickupSFX!=null)
         {
-            AudioUtility.CreateSFX(pickupSFX, transform.position, AudioUtility.AudioGroups.Pickup, 0f);
+            //AudioUtility.CreateSFX(pickupSFX, transform.position, AudioUtility.AudioGroups.Pickup, 0f);
+            pickupSFX.Post(gameObject);
         }
 
         if (pickupVFXPrefab)

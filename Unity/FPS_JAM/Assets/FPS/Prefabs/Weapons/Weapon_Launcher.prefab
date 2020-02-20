@@ -129,8 +129,14 @@ MonoBehaviour:
   spinningSpeed:
     min: 50
     max: 1500
-  chargeSound: {fileID: 8300000, guid: 7a0479c7c60da2d45b93a1af1afe6c1e, type: 3}
-  loopChargeWeaponSFX: {fileID: 8300000, guid: b78fcf1f89aacdb468ce983629886f2d, type: 3}
+  chargeSound:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  loopChargeWeaponSFX:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
   fadeLoopDuration: 0.2
 --- !u!114 &3471509760121373335
 MonoBehaviour:
@@ -176,7 +182,11 @@ MonoBehaviour:
     m_NumColorKeys: 2
     m_NumAlphaKeys: 2
   overheatingMaterial: {fileID: 2100000, guid: bbfadc30c17002448a215c8857fefa7a, type: 2}
-  coolingCellsSound: {fileID: 8300000, guid: 93331a7c9fe98494a84f18effb358899, type: 3}
+  coolingCellsSound:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 6b02f03baf2a8d44b858589836ffce52,
+      type: 2}
   ammoToVolumeRatioCurve:
     serializedVersion: 2
     m_Curve:

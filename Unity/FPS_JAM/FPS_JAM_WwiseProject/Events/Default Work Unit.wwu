@@ -25,6 +25,20 @@
 										</Reference>
 									</ReferenceList>
 								</Action>
+								<Action Name="" ID="{375CD665-B2C2-478A-A1C2-D9C7E69A61F5}" ShortID="456573334">
+									<PropertyList>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Blaster_Cooling" ID="{0DF44D80-CC71-4069-9F99-A6E495DB4B64}" WorkUnitID="{44BD1634-9851-40A6-A86D-F2BD24254EF7}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
 							</ChildrenList>
 						</Event>
 						<Event Name="Launcher_Shoot" ID="{40DC7E35-989A-45DA-A54F-7056C9702ECA}">
@@ -41,9 +55,22 @@
 						<Event Name="Weapon_Cooling" ID="{95DE4D0E-A75D-4B97-8525-0C7777DBA168}">
 							<ChildrenList>
 								<Action Name="" ID="{BB07EDCA-4BE6-476F-B7EE-B3EE70B83847}" ShortID="144642822">
+									<PropertyList>
+										<Property Name="Probability" Type="Real64" Value="50"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Blaster_Cooling" ID="{0DF44D80-CC71-4069-9F99-A6E495DB4B64}" WorkUnitID="{44BD1634-9851-40A6-A86D-F2BD24254EF7}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{A80EC88F-AB67-4403-9D82-1D34DF9A3FC7}" ShortID="926554903">
+									<PropertyList>
+										<Property Name="Probability" Type="Real64" Value="50"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Shotgun_Cooling" ID="{442F3313-3D11-4F54-8353-1B90AE651B7C}" WorkUnitID="{44BD1634-9851-40A6-A86D-F2BD24254EF7}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -64,15 +91,106 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Folder Name="Jetpack" ID="{18D2F262-2E68-4F72-B0CB-74EDFF225B26}" ShortID="729490000">
+							<ChildrenList>
+								<Event Name="Jetpack_Use" ID="{A939A6B9-BF89-45F4-8E9F-148A21E5979E}"/>
+							</ChildrenList>
+						</Folder>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Enemies" ID="{8CB0E014-A03C-446B-B0C8-62B08C31EBB5}" ShortID="883756150">
 					<ChildrenList>
-						<Folder Name="Hoverbot" ID="{EAA5036E-E007-47AD-B17A-D5BB5354B862}" ShortID="285436261"/>
-						<Folder Name="Turret" ID="{F522F895-D309-4030-A1C7-6A1E0F403668}" ShortID="458802672"/>
+						<Folder Name="Hoverbot" ID="{EAA5036E-E007-47AD-B17A-D5BB5354B862}" ShortID="285436261">
+							<ChildrenList>
+								<Event Name="Hoover_Shoot" ID="{521EFAD7-F6A7-4A2A-8085-0649A7B8660A}">
+									<ChildrenList>
+										<Action Name="" ID="{58773FD8-753B-4A85-90A0-5FA62FD73573}" ShortID="52825068">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Shoot_Hooverbot" ID="{9E9D974E-A27E-4265-861E-ABD73EA6E1F3}" WorkUnitID="{44BD1634-9851-40A6-A86D-F2BD24254EF7}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Hoover_Alert" ID="{48469CA4-21AE-4DD2-8B8D-30D9471B020D}">
+									<ChildrenList>
+										<Action Name="" ID="{629943E1-CF23-4880-943C-451107471A6A}" ShortID="93571941">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Alert_Hooverbot" ID="{2C372AD8-289E-49F3-9505-2FFABB30E97D}" WorkUnitID="{44BD1634-9851-40A6-A86D-F2BD24254EF7}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Hoover_Death" ID="{0DD866DB-7FE3-49EB-BE00-2F8911B1910D}">
+									<ChildrenList>
+										<Action Name="" ID="{E14A3C88-45F4-43E6-8BE7-455EC5ECD9DE}" ShortID="176005682">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Death_Hooverbot" ID="{0A904706-F462-4DAD-8E14-3A5F39A8A30F}" WorkUnitID="{44BD1634-9851-40A6-A86D-F2BD24254EF7}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Turret" ID="{F522F895-D309-4030-A1C7-6A1E0F403668}" ShortID="458802672">
+							<ChildrenList>
+								<Event Name="Turret_Alert" ID="{5214E5E9-A54C-46FD-AFD6-F42B1DD2EE48}">
+									<ChildrenList>
+										<Action Name="" ID="{C1E1CF85-D9D9-4C5F-A0A0-276555997BEC}" ShortID="433166776">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Turret Alert" ID="{9CACB8AB-DB58-4DE7-91DB-C430AAEB391B}" WorkUnitID="{44BD1634-9851-40A6-A86D-F2BD24254EF7}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Turret_Death" ID="{945155E5-DE34-497D-9214-C5F9A7F997A5}">
+									<ChildrenList>
+										<Action Name="" ID="{76A2468F-152E-49A3-ABF3-08982337EE0F}" ShortID="738266697">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Death_Turret" ID="{1E65A926-1347-4EC9-AE6B-6740103AB522}" WorkUnitID="{44BD1634-9851-40A6-A86D-F2BD24254EF7}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Turret_Shoot" ID="{54C9832F-213D-428F-9692-7C7D95725B59}">
+									<ChildrenList>
+										<Action Name="" ID="{7DF4DC54-A906-41EE-A07B-67170C659A9F}" ShortID="476279108">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Turret Shoot" ID="{DD492E4F-58E1-4930-BCAE-4839ADBBB965}" WorkUnitID="{44BD1634-9851-40A6-A86D-F2BD24254EF7}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
 					</ChildrenList>
 				</Folder>
-				<Folder Name="Pickups" ID="{6077B7A3-A75B-4EC2-B72A-B60AA8256E14}" ShortID="985037211"/>
+				<Folder Name="Pickups" ID="{6077B7A3-A75B-4EC2-B72A-B60AA8256E14}" ShortID="985037211">
+					<ChildrenList>
+						<Event Name="Pickup_Health" ID="{5E9BEA83-5115-4DB2-9933-06B75C927309}">
+							<ChildrenList>
+								<Action Name="" ID="{F7B34907-11A6-459E-B313-4D55FDC257B4}" ShortID="700784935">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Health" ID="{E3466C2B-E3A9-486C-B5B2-04BD52A60755}" WorkUnitID="{44BD1634-9851-40A6-A86D-F2BD24254EF7}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

@@ -25,9 +25,9 @@ public class ChargedWeaponEffectsHandler : MonoBehaviour
 
     [Header("Sound")]
     [Tooltip("Audio clip for charge SFX")]
-    public AudioClip chargeSound;
+    public AK.Wwise.Event chargeSound;
     [Tooltip("Sound played in loop after the change is full for this weapon")]
-    public AudioClip loopChargeWeaponSFX;
+    public AK.Wwise.Event loopChargeWeaponSFX;
     [Tooltip("Duration of the cross fade between the charge and the loop sound")]
     public float fadeLoopDuration = 0.5f;
 
@@ -46,7 +46,7 @@ public class ChargedWeaponEffectsHandler : MonoBehaviour
     void Awake()
     {
         // The charge effect needs it's own AudioSources, since it will play on top of the other gun sounds
-        m_AudioSource = gameObject.AddComponent<AudioSource>();
+        /*m_AudioSource = gameObject.AddComponent<AudioSource>();
         m_AudioSource.clip = chargeSound;
         m_AudioSource.playOnAwake = false;
         m_AudioSource.outputAudioMixerGroup = AudioUtility.GetAudioGroup(AudioUtility.AudioGroups.WeaponChargeBuildup);
@@ -56,7 +56,7 @@ public class ChargedWeaponEffectsHandler : MonoBehaviour
         m_AudioSourceLoop.clip = loopChargeWeaponSFX;
         m_AudioSourceLoop.playOnAwake = false;
         m_AudioSourceLoop.loop = true;
-        m_AudioSourceLoop.outputAudioMixerGroup = AudioUtility.GetAudioGroup(AudioUtility.AudioGroups.WeaponChargeLoop);
+        m_AudioSourceLoop.outputAudioMixerGroup = AudioUtility.GetAudioGroup(AudioUtility.AudioGroups.WeaponChargeLoop);*/
     }
 
     void SpawnParticleSystem()
@@ -100,10 +100,12 @@ public class ChargedWeaponEffectsHandler : MonoBehaviour
         {
             if (!m_AudioSource.isPlaying && m_ChargeRatio < 0.1f)
             {
-                m_EndchargeTime = Time.time + chargeSound.length;
+                //m_EndchargeTime = Time.time + chargeSound.length;
 
-                m_AudioSource.Play();
-                m_AudioSourceLoop.Play();
+                //m_AudioSource.Play(); cha
+                //m_AudioSourceLoop.Play();
+                chargeSound.Post(gameObject);
+                loopChargeWeaponSFX.Post(gameObject);
             }
 
             float volumeRatio = Mathf.Clamp01((m_EndchargeTime - Time.time - fadeLoopDuration) / fadeLoopDuration);
@@ -113,8 +115,10 @@ public class ChargedWeaponEffectsHandler : MonoBehaviour
         }
         else
         {
-            m_AudioSource.Stop();
-            m_AudioSourceLoop.Stop();
+            // m_AudioSource.Stop();
+            // m_AudioSourceLoop.Stop();
+            chargeSound.Stop(gameObject);
+            loopChargeWeaponSFX.Stop(gameObject);
         }
     }
 }

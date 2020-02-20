@@ -20,7 +20,7 @@ public class EnemyTurret : MonoBehaviour
     [Tooltip("The random hit damage effects")]
     public ParticleSystem[] randomHitSparks;
     public ParticleSystem[] onDetectVFX;
-    public AudioClip onDetectSFX;
+    public AK.Wwise.Event onDetectSFX;
 
     public AIState aiState { get; private set; }
 
@@ -128,9 +128,10 @@ public class EnemyTurret : MonoBehaviour
             onDetectVFX[i].Play();
         }
 
-        if (onDetectSFX)
+        if (onDetectSFX!=null)
         {
-            AudioUtility.CreateSFX(onDetectSFX, transform.position, AudioUtility.AudioGroups.EnemyDetection, 1f);
+            // AudioUtility.CreateSFX(onDetectSFX, transform.position, AudioUtility.AudioGroups.EnemyDetection, 1f);
+            onDetectSFX.Post(gameObject);
         }
 
         animator.SetBool(k_AnimIsActiveParameter, true);
