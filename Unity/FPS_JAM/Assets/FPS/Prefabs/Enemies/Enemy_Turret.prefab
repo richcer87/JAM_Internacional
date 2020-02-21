@@ -255,7 +255,8 @@ MonoBehaviour:
   damageTick:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: 009e003ff1c27324c99e1d13cafc428b,
+      type: 2}
   deathVFX: {fileID: 8950624839484268180, guid: 45ce85b82008be84287f2c7e5bf07647,
     type: 3}
   deathVFXSpawnPoint: {fileID: 7886326314632062837}

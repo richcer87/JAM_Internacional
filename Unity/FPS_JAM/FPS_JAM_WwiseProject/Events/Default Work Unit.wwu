@@ -41,17 +41,6 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="Launcher_Shoot" ID="{40DC7E35-989A-45DA-A54F-7056C9702ECA}">
-							<ChildrenList>
-								<Action Name="" ID="{78F97166-5ACB-4CC2-81B0-FEB96EE4DA2C}" ShortID="391452838">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Launcher_Shoot" ID="{82E8A17C-D4B1-4E07-8AFC-B8BBE329A92C}" WorkUnitID="{44BD1634-9851-40A6-A86D-F2BD24254EF7}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
 						<Event Name="Weapon_Cooling" ID="{95DE4D0E-A75D-4B97-8525-0C7777DBA168}">
 							<ChildrenList>
 								<Action Name="" ID="{BB07EDCA-4BE6-476F-B7EE-B3EE70B83847}" ShortID="144642822">
@@ -76,6 +65,43 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Folder Name="Launcher" ID="{25CA87FC-1FB4-435A-9E23-9046F7547EE9}" ShortID="744601053">
+							<ChildrenList>
+								<Event Name="Launcher_Shoot" ID="{40DC7E35-989A-45DA-A54F-7056C9702ECA}">
+									<ChildrenList>
+										<Action Name="" ID="{78F97166-5ACB-4CC2-81B0-FEB96EE4DA2C}" ShortID="391452838">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Launcher_Shoot" ID="{82E8A17C-D4B1-4E07-8AFC-B8BBE329A92C}" WorkUnitID="{44BD1634-9851-40A6-A86D-F2BD24254EF7}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Launcher_BuildUp" ID="{CA30EAB4-849D-4851-A5B3-F763642D8710}">
+									<ChildrenList>
+										<Action Name="" ID="{AD5C9B71-C8BC-4B1A-A86D-DAC3B2EAF206}" ShortID="13506102">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Launcher_Charge_BuildUp" ID="{174B238E-6ACA-4BA7-802E-46EEECF365CC}" WorkUnitID="{44BD1634-9851-40A6-A86D-F2BD24254EF7}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Launcher_Loop" ID="{D9118EC5-6E07-4ED5-85F3-048EAE36611D}">
+									<ChildrenList>
+										<Action Name="" ID="{0811D81D-504C-4FE9-81E2-26CA50F229F7}" ShortID="1018946449">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Launcher_Charge_Loop" ID="{E88906A8-4723-4B36-ACA1-5A28096ECD94}" WorkUnitID="{44BD1634-9851-40A6-A86D-F2BD24254EF7}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Player" ID="{BC7CDF26-0D2F-4742-9DA2-15F39C249C76}" ShortID="647956122">
@@ -93,9 +119,41 @@
 						</Event>
 						<Folder Name="Jetpack" ID="{18D2F262-2E68-4F72-B0CB-74EDFF225B26}" ShortID="729490000">
 							<ChildrenList>
-								<Event Name="Jetpack_Use" ID="{A939A6B9-BF89-45F4-8E9F-148A21E5979E}"/>
+								<Event Name="Jetpack_Use" ID="{A939A6B9-BF89-45F4-8E9F-148A21E5979E}">
+									<ChildrenList>
+										<Action Name="" ID="{87CA3EDA-A33C-43BF-8955-89532D2A1B94}" ShortID="346638668">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Jetpack" ID="{FFF39F70-3029-4B77-8FDB-ED8DB0C13455}" WorkUnitID="{44BD1634-9851-40A6-A86D-F2BD24254EF7}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
 							</ChildrenList>
 						</Folder>
+						<Event Name="Damage" ID="{7CCB83F0-1D17-43D6-8704-9BB8703B5D8D}">
+							<ChildrenList>
+								<Action Name="" ID="{5A5D19B2-D5CA-4D20-9F2F-2C19B6A61283}" ShortID="868991987">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Damage_Hit" ID="{095514EC-F7D2-47ED-99EF-3672E509783B}" WorkUnitID="{44BD1634-9851-40A6-A86D-F2BD24254EF7}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Land_Damage" ID="{72D47C89-E141-4F01-93EC-3A52777F4A0A}">
+							<ChildrenList>
+								<Action Name="" ID="{159B84F4-9A90-4961-A4C1-DC0860142CE2}" ShortID="668886370">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Land_Damage" ID="{CF439CB5-0402-4588-A89E-B579D822D4DF}" WorkUnitID="{44BD1634-9851-40A6-A86D-F2BD24254EF7}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Enemies" ID="{8CB0E014-A03C-446B-B0C8-62B08C31EBB5}" ShortID="883756150">
@@ -135,6 +193,28 @@
 										</Action>
 									</ChildrenList>
 								</Event>
+								<Event Name="Hoover_Damage" ID="{4B44172F-4609-48E9-8FD3-7B1FF292BB41}">
+									<ChildrenList>
+										<Action Name="" ID="{EB645B72-CFC4-4261-9C30-3DCD04CC1985}" ShortID="192416926">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Damage_Hooverbot" ID="{93F83A90-F0C4-41B1-8408-869C5A9B1CA8}" WorkUnitID="{44BD1634-9851-40A6-A86D-F2BD24254EF7}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Hoover_Move" ID="{E0ABCA1F-DBF4-49ED-9086-F376CFDC7B53}">
+									<ChildrenList>
+										<Action Name="" ID="{1A3821B4-1152-477A-B33F-EE4CFFB07ABC}" ShortID="18849859">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Movement" ID="{452FECEB-0D1F-4150-A80C-CB60689555D1}" WorkUnitID="{44BD1634-9851-40A6-A86D-F2BD24254EF7}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
 							</ChildrenList>
 						</Folder>
 						<Folder Name="Turret" ID="{F522F895-D309-4030-A1C7-6A1E0F403668}" ShortID="458802672">
@@ -167,6 +247,17 @@
 											<ReferenceList>
 												<Reference Name="Target">
 													<ObjectRef Name="Turret Shoot" ID="{DD492E4F-58E1-4930-BCAE-4839ADBBB965}" WorkUnitID="{44BD1634-9851-40A6-A86D-F2BD24254EF7}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Turret_Damage" ID="{29A4AE3C-27B9-48D6-952D-A964207E502D}">
+									<ChildrenList>
+										<Action Name="" ID="{43A8AD95-9F44-4D2B-9BE8-EABF6C4FE129}" ShortID="536120813">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Turret Damage" ID="{194333BE-B6F4-4165-A340-DB2E9A978C3A}" WorkUnitID="{44BD1634-9851-40A6-A86D-F2BD24254EF7}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>

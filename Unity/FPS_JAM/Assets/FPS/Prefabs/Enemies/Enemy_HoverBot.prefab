@@ -147,7 +147,8 @@ MonoBehaviour:
   damageTick:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: 13365efaae64b97469bf6cc5e7ddd38a,
+      type: 2}
   deathVFX: {fileID: 8950624839484268180, guid: 2a8f5052fe50f7b41b17149abb0f7414,
     type: 3}
   deathVFXSpawnPoint: {fileID: 381893446485871685}
@@ -188,7 +189,8 @@ MonoBehaviour:
   MovementSound:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: 5588565f31ad618469500b0187cc57bf,
+      type: 2}
   PitchDistortionMovementSpeed:
     min: 1
     max: 1.5

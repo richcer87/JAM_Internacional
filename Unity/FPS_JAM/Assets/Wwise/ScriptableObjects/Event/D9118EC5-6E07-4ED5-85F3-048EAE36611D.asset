@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 633293fd255a57a469d0c3cfaa6b06f5, type: 3}
+  m_Name: D9118EC5-6E07-4ED5-85F3-048EAE36611D
+  m_EditorClassIdentifier: 
+  objectName: Launcher_Loop
+  id: 99515266
+  guid: D9118EC5-6E07-4ED5-85F3-048EAE36611D

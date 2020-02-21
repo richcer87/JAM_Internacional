@@ -31,7 +31,7 @@ public class Jetpack : MonoBehaviour
 
     [Header("Audio")]
     [Tooltip("Sound played when using the jetpack")]
-    public AudioClip jetpackSFX;
+    public AK.Wwise.Event jetpackSFX;
 
     bool m_CanUseJetpack;
     PlayerCharacterController m_PlayerCharacterController;
@@ -58,7 +58,7 @@ public class Jetpack : MonoBehaviour
 
         currentFillRatio = 1f;
 
-        audioSource.clip = jetpackSFX;
+        //audioSource.clip = jetpackSFX;
         audioSource.loop = true;
     }
 
@@ -104,8 +104,9 @@ public class Jetpack : MonoBehaviour
                 emissionModulesVFX.enabled = true;
             }
 
-            if (!audioSource.isPlaying)
-                audioSource.Play();
+            jetpackSFX.Post(gameObject);
+            //if (!audioSource.isPlaying)
+              //  audioSource.Play();
         }
         else
         {
@@ -124,9 +125,9 @@ public class Jetpack : MonoBehaviour
 
             // keeps the ratio between 0 and 1
             currentFillRatio = Mathf.Clamp01(currentFillRatio);
-
-            if (audioSource.isPlaying)
-                audioSource.Stop();
+            jetpackSFX.Stop(gameObject);
+            //if (audioSource.isPlaying)
+               // audioSource.Stop();
         }
     }
 

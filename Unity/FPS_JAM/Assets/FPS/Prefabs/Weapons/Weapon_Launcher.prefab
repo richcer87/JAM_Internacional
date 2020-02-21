@@ -132,11 +132,13 @@ MonoBehaviour:
   chargeSound:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: ad84d715c023f1d4d8111fb7d7029096,
+      type: 2}
   loopChargeWeaponSFX:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: 4524fa97b1089414682a960d6fd36974,
+      type: 2}
   fadeLoopDuration: 0.2
 --- !u!114 &3471509760121373335
 MonoBehaviour:

@@ -56,7 +56,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 10ba72b50bb0484099490ee42d14d6c9
     GuidInternal: 
-    m_lastTime: -8586194592577002446
+    m_lastTime: -8586192910741009494
     List:
     - name: Blaster_Shoot
       guid: 1f01cbc7b59a0745b3a122ef2b141b07
@@ -72,6 +72,238 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 2.083333
       minDuration: 1.966405
+    - name: Damage
+      guid: f083cb7c171dd64387049bb8703b5d8d
+      id: 1786804762
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Player
+        ObjectType: 4
+      - ElementName: Damage
+        ObjectType: 3
+      Path: Default Work Unit\Player\Damage
+      maxAttenuation: 0
+      maxDuration: 0.866513
+      minDuration: 0.735717
+    - name: Enemies
+      guid: 14e0b08c3ca06b44b0c862b08c31ebb5
+      id: 2242381963
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Enemies
+        ObjectType: 4
+      - ElementName: Enemies
+        ObjectType: 3
+      Path: Default Work Unit\Enemies\Enemies
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Footsteps
+      guid: eb98340966da0b49808a01521f4a728f
+      id: 2385628198
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Player
+        ObjectType: 4
+      - ElementName: Footsteps
+        ObjectType: 3
+      Path: Default Work Unit\Player\Footsteps
+      maxAttenuation: 0
+      maxDuration: 0.314063
+      minDuration: 0.10477
+    - name: Hoover_Alert
+      guid: a49c4648ae21d24d8b8d30d9471b020d
+      id: 4187423031
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Enemies
+        ObjectType: 4
+      - ElementName: Hoverbot
+        ObjectType: 4
+      - ElementName: Hoover_Alert
+        ObjectType: 3
+      Path: Default Work Unit\Enemies\Hoverbot\Hoover_Alert
+      maxAttenuation: 0
+      maxDuration: 1.458333
+      minDuration: 1.458333
+    - name: Hoover_Damage
+      guid: 2f17444b0946e9488fd37b1ff292bb41
+      id: 1065059636
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Enemies
+        ObjectType: 4
+      - ElementName: Hoverbot
+        ObjectType: 4
+      - ElementName: Hoover_Damage
+        ObjectType: 3
+      Path: Default Work Unit\Enemies\Hoverbot\Hoover_Damage
+      maxAttenuation: 0
+      maxDuration: 1.563658
+      minDuration: 1.389918
+    - name: Hoover_Death
+      guid: db66d80de37feb49be002f8911b1910d
+      id: 2899905971
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Enemies
+        ObjectType: 4
+      - ElementName: Hoverbot
+        ObjectType: 4
+      - ElementName: Hoover_Death
+        ObjectType: 3
+      Path: Default Work Unit\Enemies\Hoverbot\Hoover_Death
+      maxAttenuation: 0
+      maxDuration: 2.125
+      minDuration: 2.125
+    - name: Hoover_Move
+      guid: 1fcaabe0f4dbed499086f376cfdc7b53
+      id: 3975751376
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Enemies
+        ObjectType: 4
+      - ElementName: Hoverbot
+        ObjectType: 4
+      - ElementName: Hoover_Move
+        ObjectType: 3
+      Path: Default Work Unit\Enemies\Hoverbot\Hoover_Move
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Hoover_Shoot
+      guid: d7fa1e52a7f62a4a80850649a7b8660a
+      id: 848010948
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Enemies
+        ObjectType: 4
+      - ElementName: Hoverbot
+        ObjectType: 4
+      - ElementName: Hoover_Shoot
+        ObjectType: 3
+      Path: Default Work Unit\Enemies\Hoverbot\Hoover_Shoot
+      maxAttenuation: 0
+      maxDuration: 1.076503
+      minDuration: 1.016083
+    - name: Hoverbot
+      guid: 6e03a5ea07e0ad47b17ad5bb5354b862
+      id: 3333669516
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Enemies
+        ObjectType: 4
+      - ElementName: Hoverbot
+        ObjectType: 4
+      - ElementName: Hoverbot
+        ObjectType: 3
+      Path: Default Work Unit\Enemies\Hoverbot\Hoverbot
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Jetpack
+      guid: 62f2d218682e724fb0cb74edff225b26
+      id: 2680315389
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Player
+        ObjectType: 4
+      - ElementName: Jetpack
+        ObjectType: 4
+      - ElementName: Jetpack
+        ObjectType: 3
+      Path: Default Work Unit\Player\Jetpack\Jetpack
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Jetpack_Use
+      guid: b9a639a989bff4458e9f148a21e5979e
+      id: 3876585337
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Player
+        ObjectType: 4
+      - ElementName: Jetpack
+        ObjectType: 4
+      - ElementName: Jetpack_Use
+        ObjectType: 3
+      Path: Default Work Unit\Player\Jetpack\Jetpack_Use
+      maxAttenuation: 0
+      maxDuration: Infinity
+      minDuration: 1.583333
+    - name: Land_Damage
+      guid: 897cd47241e1014f93ec3a52777f4a0a
+      id: 3483890130
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Player
+        ObjectType: 4
+      - ElementName: Land_Damage
+        ObjectType: 3
+      Path: Default Work Unit\Player\Land_Damage
+      maxAttenuation: 0
+      maxDuration: 2.284165
+      minDuration: 2.284165
+    - name: Launcher
+      guid: fc87ca25b41f5a439e239046f7547ee9
+      id: 2872197773
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Weapons
+        ObjectType: 4
+      - ElementName: Launcher
+        ObjectType: 4
+      - ElementName: Launcher
+        ObjectType: 3
+      Path: Default Work Unit\Weapons\Launcher\Launcher
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Launcher_BuildUp
+      guid: b4ea30ca9d845148a5b3f763642d8710
+      id: 851704759
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Weapons
+        ObjectType: 4
+      - ElementName: Launcher
+        ObjectType: 4
+      - ElementName: Launcher_BuildUp
+        ObjectType: 3
+      Path: Default Work Unit\Weapons\Launcher\Launcher_BuildUp
+      maxAttenuation: 0
+      maxDuration: 3.30735
+      minDuration: 3.30735
+    - name: Launcher_Loop
+      guid: c58e11d9076ed54e85f3048eae36611d
+      id: 99515266
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Weapons
+        ObjectType: 4
+      - ElementName: Launcher
+        ObjectType: 4
+      - ElementName: Launcher_Loop
+        ObjectType: 3
+      Path: Default Work Unit\Weapons\Launcher\Launcher_Loop
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Launcher_Shoot
       guid: 357edc409a98da45a54f7056c9702eca
       id: 3725660253
@@ -80,12 +312,56 @@ MonoBehaviour:
         ObjectType: 12
       - ElementName: Weapons
         ObjectType: 4
+      - ElementName: Launcher
+        ObjectType: 4
       - ElementName: Launcher_Shoot
         ObjectType: 3
-      Path: Default Work Unit\Weapons\Launcher_Shoot
+      Path: Default Work Unit\Weapons\Launcher\Launcher_Shoot
       maxAttenuation: 0
       maxDuration: 2.358818
       minDuration: 2.226427
+    - name: Pickup_Health
+      guid: 83ea9b5e1551b24d993306b75c927309
+      id: 3554861522
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Pickups
+        ObjectType: 4
+      - ElementName: Pickup_Health
+        ObjectType: 3
+      Path: Default Work Unit\Pickups\Pickup_Health
+      maxAttenuation: 0
+      maxDuration: 1.449934
+      minDuration: 1.449934
+    - name: Pickups
+      guid: a3b777605ba7c24eb72ab60aa8256e14
+      id: 488853820
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Pickups
+        ObjectType: 4
+      - ElementName: Pickups
+        ObjectType: 3
+      Path: Default Work Unit\Pickups\Pickups
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Player
+      guid: 26df7cbc2f0d42479da215f39c249c76
+      id: 1069431850
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Player
+        ObjectType: 4
+      - ElementName: Player
+        ObjectType: 3
+      Path: Default Work Unit\Player\Player
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Shotgun_Shoot
       guid: ed4f84db16d9e64ba25572e4fe13381a
       id: 2040071657
@@ -100,6 +376,100 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 1.375
       minDuration: 1.297827
+    - name: Turret
+      guid: 95f822f509d33040a1c76a1e0f403668
+      id: 2674766611
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Enemies
+        ObjectType: 4
+      - ElementName: Turret
+        ObjectType: 4
+      - ElementName: Turret
+        ObjectType: 3
+      Path: Default Work Unit\Enemies\Turret\Turret
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Turret_Alert
+      guid: e9e514524ca5fd46afd6f42b1dd2ee48
+      id: 2530127952
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Enemies
+        ObjectType: 4
+      - ElementName: Turret
+        ObjectType: 4
+      - ElementName: Turret_Alert
+        ObjectType: 3
+      Path: Default Work Unit\Enemies\Turret\Turret_Alert
+      maxAttenuation: 0
+      maxDuration: 2.038706
+      minDuration: 2.038706
+    - name: Turret_Damage
+      guid: 3caea429b927d648952da964207e502d
+      id: 2638846805
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Enemies
+        ObjectType: 4
+      - ElementName: Turret
+        ObjectType: 4
+      - ElementName: Turret_Damage
+        ObjectType: 3
+      Path: Default Work Unit\Enemies\Turret\Turret_Damage
+      maxAttenuation: 0
+      maxDuration: 2.031562
+      minDuration: 2.031562
+    - name: Turret_Death
+      guid: e555519434de7d499214c5f9a7f997a5
+      id: 124877840
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Enemies
+        ObjectType: 4
+      - ElementName: Turret
+        ObjectType: 4
+      - ElementName: Turret_Death
+        ObjectType: 3
+      Path: Default Work Unit\Enemies\Turret\Turret_Death
+      maxAttenuation: 0
+      maxDuration: 2.755784
+      minDuration: 2.755784
+    - name: Turret_Shoot
+      guid: 2f83c9543d218f4296927c7d95725b59
+      id: 2888394459
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Enemies
+        ObjectType: 4
+      - ElementName: Turret
+        ObjectType: 4
+      - ElementName: Turret_Shoot
+        ObjectType: 3
+      Path: Default Work Unit\Enemies\Turret\Turret_Shoot
+      maxAttenuation: 0
+      maxDuration: 1.356308
+      minDuration: 1.356308
+    - name: Weapon_Cooling
+      guid: 0e4dde955da7974b85250c7777dba168
+      id: 4006394725
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Weapons
+        ObjectType: 4
+      - ElementName: Weapon_Cooling
+        ObjectType: 3
+      Path: Default Work Unit\Weapons\Weapon_Cooling
+      maxAttenuation: 0
+      maxDuration: 2.666667
+      minDuration: 0
     - name: Weapons
       guid: 040b58104291f94185276e861ef99489
       id: 1467963052
@@ -146,6 +516,7 @@ MonoBehaviour:
   - /FPS_JAM_WwiseProject
   - /FPS_JAM_WwiseProject/Events
   - /FPS_JAM_WwiseProject/Events/Default Work Unit
-  - /FPS_JAM_WwiseProject/Events/Default Work Unit/Weapons
+  - /FPS_JAM_WwiseProject/Events/Default Work Unit/Player
+  - /FPS_JAM_WwiseProject/Events/Default Work Unit/Player/Jetpack
   autoPopulateEnabled: 1
   CurrentPluginConfig: 
