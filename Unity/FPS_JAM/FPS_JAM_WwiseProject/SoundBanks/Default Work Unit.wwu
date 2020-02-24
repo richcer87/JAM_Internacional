@@ -5,12 +5,13 @@
 			<ChildrenList>
 				<SoundBank Name="SecondaryScene" ID="{21013612-EA6D-4D2D-A237-2D00240EDC53}">
 					<ObjectInclusionList>
+						<ObjectRef Name="Default Work Unit" ID="{B572BA10-B00B-4048-9949-0EE42D14D6C9}" WorkUnitID="{B572BA10-B00B-4048-9949-0EE42D14D6C9}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Pickups" ID="{D4A06ACB-BE19-4456-B306-AB75558C53F8}" WorkUnitID="{44BD1634-9851-40A6-A86D-F2BD24254EF7}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Weapons" ID="{D32A8379-6A1C-4527-80DE-28A5C00F765A}" WorkUnitID="{44BD1634-9851-40A6-A86D-F2BD24254EF7}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="UI" ID="{FD95D2B3-20AD-4889-9662-01146C7B06F6}" WorkUnitID="{44BD1634-9851-40A6-A86D-F2BD24254EF7}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Enemies" ID="{551B05EC-652E-4904-A8D2-03727907C6B3}" WorkUnitID="{44BD1634-9851-40A6-A86D-F2BD24254EF7}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Player" ID="{25CD1093-64B0-4938-95E8-A3F5C2442E60}" WorkUnitID="{44BD1634-9851-40A6-A86D-F2BD24254EF7}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Ambience" ID="{4BD19056-8AEA-4BB3-8AA5-61539410C237}" WorkUnitID="{44BD1634-9851-40A6-A86D-F2BD24254EF7}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Default Work Unit" ID="{BF27B466-5CA5-4CBA-A455-F22CBE434AD6}" WorkUnitID="{BF27B466-5CA5-4CBA-A455-F22CBE434AD6}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

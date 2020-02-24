@@ -80,7 +80,7 @@ public class WeaponController : MonoBehaviour
     [Tooltip("sound played when shooting")]
     public AK.Wwise.Event shootSFX;
     [Tooltip("Sound played when changing to this weapon")]
-    public AudioClip changeWeaponSFX;
+    public AK.Wwise.Event changeWeaponSFX;
 
     float m_CurrentAmmo;
     float m_LastTimeShot = Mathf.NegativeInfinity;
@@ -183,9 +183,10 @@ public class WeaponController : MonoBehaviour
     {
         weaponRoot.SetActive(show);
 
-        if (show && changeWeaponSFX)
+        if (show && changeWeaponSFX!=null)
         {
-            m_ShootAudioSource.PlayOneShot(changeWeaponSFX);
+            //m_ShootAudioSource.PlayOneShot(changeWeaponSFX);
+            changeWeaponSFX.Post(gameObject);
         }
 
         isWeaponActive = show;

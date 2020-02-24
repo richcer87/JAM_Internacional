@@ -61,7 +61,7 @@ MonoBehaviour:
     crosshairColor: {r: 0.4209304, g: 1, b: 0.32549024, a: 1}
   weaponRoot: {fileID: 5646165488041817916}
   weaponMuzzle: {fileID: 2749496858225023403}
-  shootType: 2
+  shootType: 0
   projectilePrefab: {fileID: 6867404450943131836, guid: 0e23901b938cf4f4eb86850d912715eb,
     type: 3}
   delayBetweenShots: 0.5
@@ -82,7 +82,11 @@ MonoBehaviour:
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 42b1c6f98f3a0ab4a9ed7481665d41d3,
       type: 2}
-  changeWeaponSFX: {fileID: 8300000, guid: 6f3e0904bbbace745bdef08cdbcdfec0, type: 3}
+  changeWeaponSFX:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 820e429413c794508a76106045689385,
+      type: 2}
 --- !u!114 &1284412032582177879
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -229,7 +233,7 @@ AudioSource:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2225486910712267859}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 243115921504442520, guid: fcc71635aab95ff4fbdf1880bf2afa2f,
     type: 2}

@@ -10,6 +10,13 @@
 						</Reference>
 					</ReferenceList>
 				</Bus>
+				<Bus Name="Music Bus" ID="{A5FED45D-5D70-4D13-929C-711B89D3FBD1}">
+					<ReferenceList>
+						<Reference Name="AudioDevice">
+							<ObjectRef Name="System" ID="{BCFB7ADD-DB9F-43B5-B269-70AE26CB66ED}" WorkUnitID="{151D75DB-E9A4-4ED4-BB68-FF93AC37EA10}"/>
+						</Reference>
+					</ReferenceList>
+				</Bus>
 			</ChildrenList>
 		</WorkUnit>
 	</Busses>

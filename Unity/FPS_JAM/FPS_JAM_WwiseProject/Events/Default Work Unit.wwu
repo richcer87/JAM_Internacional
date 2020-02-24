@@ -44,9 +44,6 @@
 						<Event Name="Weapon_Cooling" ID="{95DE4D0E-A75D-4B97-8525-0C7777DBA168}">
 							<ChildrenList>
 								<Action Name="" ID="{BB07EDCA-4BE6-476F-B7EE-B3EE70B83847}" ShortID="144642822">
-									<PropertyList>
-										<Property Name="Probability" Type="Real64" Value="50"/>
-									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Blaster_Cooling" ID="{0DF44D80-CC71-4069-9F99-A6E495DB4B64}" WorkUnitID="{44BD1634-9851-40A6-A86D-F2BD24254EF7}"/>
@@ -55,6 +52,11 @@
 								</Action>
 								<Action Name="" ID="{A80EC88F-AB67-4403-9D82-1D34DF9A3FC7}" ShortID="926554903">
 									<PropertyList>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
 										<Property Name="Probability" Type="Real64" Value="50"/>
 									</PropertyList>
 									<ReferenceList>
@@ -117,21 +119,6 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Folder Name="Jetpack" ID="{18D2F262-2E68-4F72-B0CB-74EDFF225B26}" ShortID="729490000">
-							<ChildrenList>
-								<Event Name="Jetpack_Use" ID="{A939A6B9-BF89-45F4-8E9F-148A21E5979E}">
-									<ChildrenList>
-										<Action Name="" ID="{87CA3EDA-A33C-43BF-8955-89532D2A1B94}" ShortID="346638668">
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="Jetpack" ID="{FFF39F70-3029-4B77-8FDB-ED8DB0C13455}" WorkUnitID="{44BD1634-9851-40A6-A86D-F2BD24254EF7}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-							</ChildrenList>
-						</Folder>
 						<Event Name="Damage" ID="{7CCB83F0-1D17-43D6-8704-9BB8703B5D8D}">
 							<ChildrenList>
 								<Action Name="" ID="{5A5D19B2-D5CA-4D20-9F2F-2C19B6A61283}" ShortID="868991987">
@@ -149,6 +136,39 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Land_Damage" ID="{CF439CB5-0402-4588-A89E-B579D822D4DF}" WorkUnitID="{44BD1634-9851-40A6-A86D-F2BD24254EF7}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Jetpack" ID="{1F97B2AC-4D55-4774-B9CB-D08F133C656A}">
+							<ChildrenList>
+								<Action Name="" ID="{0A23647D-1F49-442C-81C4-52F63359ED38}" ShortID="1028456360">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Jetpack_Loop" ID="{4422C14D-BB52-446E-8AD8-68CC3B84CAE6}" WorkUnitID="{44BD1634-9851-40A6-A86D-F2BD24254EF7}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Jump" ID="{F68F7828-09E0-4806-B8C4-7786A59507AB}">
+							<ChildrenList>
+								<Action Name="" ID="{1C99A0FB-5995-4F08-AD86-97B257813FA9}" ShortID="71413821">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Jump" ID="{F8189BC0-F131-4F26-BA50-6015BA31B2B8}" WorkUnitID="{44BD1634-9851-40A6-A86D-F2BD24254EF7}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Land" ID="{59476C59-4726-475B-A6B3-8AA3119EF987}">
+							<ChildrenList>
+								<Action Name="" ID="{C589F92F-4A65-490C-980D-3EAE93DBDB40}" ShortID="623663724">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Land" ID="{7BC7C3F5-4FD2-4929-AE2E-F0B7031AD4E2}" WorkUnitID="{44BD1634-9851-40A6-A86D-F2BD24254EF7}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -207,6 +227,9 @@
 								<Event Name="Hoover_Move" ID="{E0ABCA1F-DBF4-49ED-9086-F376CFDC7B53}">
 									<ChildrenList>
 										<Action Name="" ID="{1A3821B4-1152-477A-B33F-EE4CFFB07ABC}" ShortID="18849859">
+											<PropertyList>
+												<Property Name="FadeInCurve" Type="int16" Value="7"/>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Target">
 													<ObjectRef Name="Movement" ID="{452FECEB-0D1F-4150-A80C-CB60689555D1}" WorkUnitID="{44BD1634-9851-40A6-A86D-F2BD24254EF7}"/>
@@ -280,8 +303,52 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Pickup_Weapon" ID="{07981B4A-7A14-475D-889D-FE93C13D9A6B}">
+							<ChildrenList>
+								<Action Name="" ID="{81DD1A93-B1D9-4E71-8B0A-F4166CCE0009}" ShortID="752374170">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Weapon" ID="{D00EC300-3E3A-4AE2-8E8F-E4586A14F753}" WorkUnitID="{44BD1634-9851-40A6-A86D-F2BD24254EF7}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Pickup_Jetpack" ID="{C0C7C14B-5FC2-448F-9C43-6CD32ECE43E7}">
+							<ChildrenList>
+								<Action Name="" ID="{A0C07168-4962-42F0-96E5-E79DBC223F55}" ShortID="11842907">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Jetpack" ID="{80A327FF-B503-4012-B817-CFC2F0F1B2A1}" WorkUnitID="{44BD1634-9851-40A6-A86D-F2BD24254EF7}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
+				<Event Name="Music" ID="{85ABB8D7-2F47-4A1E-A72B-8EEA771E7EC9}">
+					<ChildrenList>
+						<Action Name="" ID="{6826D1AD-4CCE-4DCD-BFA4-C4785C158138}" ShortID="537514680">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="mus_level_MASTER" ID="{3A761368-F2C0-48F8-A5AF-49BAE5BE6C77}" WorkUnitID="{44BD1634-9851-40A6-A86D-F2BD24254EF7}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Ambience" ID="{46B41850-28D8-4E57-B685-0B4B5371F29F}">
+					<ChildrenList>
+						<Action Name="" ID="{4B65250B-6DA9-46F0-B8B0-0ED494B9B11A}" ShortID="150893324">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="BG LOOP" ID="{19FFDC4C-008D-447D-A3B4-E4F16A6FECD0}" WorkUnitID="{44BD1634-9851-40A6-A86D-F2BD24254EF7}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

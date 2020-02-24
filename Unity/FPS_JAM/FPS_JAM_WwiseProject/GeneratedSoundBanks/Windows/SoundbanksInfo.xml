@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="135">
 	<RootPaths>
-		<ProjectRoot>C:\Users\BigMonster\Desktop\JAM\JAM_Internacional\Unity\FPS_JAM\FPS_JAM_WwiseProject\</ProjectRoot>
-		<SourceFilesRoot>C:\Users\BigMonster\Desktop\JAM\JAM_Internacional\Unity\FPS_JAM\FPS_JAM_WwiseProject\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>C:\Users\BigMonster\Desktop\JAM\JAM_Internacional\Unity\FPS_JAM\FPS_JAM_WwiseProject\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ProjectRoot>/Users/Ricardo/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Desktop/JAM_Internacional/Unity/FPS_JAM/FPS_JAM_WwiseProject/</ProjectRoot>
+		<SourceFilesRoot>/Users/Ricardo/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Desktop/JAM_Internacional/Unity/FPS_JAM/FPS_JAM_WwiseProject/.cache/Windows/</SourceFilesRoot>
+		<SoundBanksRoot>/Users/Ricardo/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Desktop/JAM_Internacional/Unity/FPS_JAM/FPS_JAM_WwiseProject/GeneratedSoundBanks/Windows/</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>C:\Users\BigMonster\Desktop\JAM\JAM_Internacional\Unity\FPS_JAM\FPS_JAM_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>/Users/Ricardo/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Desktop/JAM_Internacional/Unity/FPS_JAM/FPS_JAM_WwiseProject/GeneratedSoundBanks/Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
@@ -21,167 +21,407 @@
 			<ShortName>SecondaryScene</ShortName>
 			<Path>SecondaryScene.bnk</Path>
 			<IncludedEvents>
-				<Event Id="2356394572" Name="Blaster_Shoot" ObjectPath="\Events\Default Work Unit\Weapons\Blaster_Shoot" DurationType="OneShot" DurationMin="1.966405" DurationMax="2.083333"/>
-				<Event Id="1786804762" Name="Damage" ObjectPath="\Events\Default Work Unit\Player\Damage" DurationType="OneShot" DurationMin="0.735717" DurationMax="0.866513"/>
-				<Event Id="2385628198" Name="Footsteps" ObjectPath="\Events\Default Work Unit\Player\Footsteps" DurationType="OneShot" DurationMin="0.104770" DurationMax="0.314063"/>
-				<Event Id="4187423031" Name="Hoover_Alert" ObjectPath="\Events\Default Work Unit\Enemies\Hoverbot\Hoover_Alert" DurationType="OneShot" DurationMin="1.458333" DurationMax="1.458333"/>
-				<Event Id="1065059636" Name="Hoover_Damage" ObjectPath="\Events\Default Work Unit\Enemies\Hoverbot\Hoover_Damage" DurationType="OneShot" DurationMin="1.389918" DurationMax="1.563658"/>
-				<Event Id="2899905971" Name="Hoover_Death" ObjectPath="\Events\Default Work Unit\Enemies\Hoverbot\Hoover_Death" DurationType="OneShot" DurationMin="2.125000" DurationMax="2.125000"/>
-				<Event Id="3975751376" Name="Hoover_Move" ObjectPath="\Events\Default Work Unit\Enemies\Hoverbot\Hoover_Move" DurationType="Infinite"/>
-				<Event Id="848010948" Name="Hoover_Shoot" ObjectPath="\Events\Default Work Unit\Enemies\Hoverbot\Hoover_Shoot" DurationType="OneShot" DurationMin="1.016083" DurationMax="1.076503"/>
-				<Event Id="3876585337" Name="Jetpack_Use" ObjectPath="\Events\Default Work Unit\Player\Jetpack\Jetpack_Use" DurationType="Mixed" DurationMin="1.583333" DurationMax="Infinite"/>
-				<Event Id="3483890130" Name="Land_Damage" ObjectPath="\Events\Default Work Unit\Player\Land_Damage" DurationType="OneShot" DurationMin="2.284165" DurationMax="2.284165"/>
-				<Event Id="851704759" Name="Launcher_BuildUp" ObjectPath="\Events\Default Work Unit\Weapons\Launcher\Launcher_BuildUp" DurationType="OneShot" DurationMin="3.307350" DurationMax="3.307350"/>
-				<Event Id="99515266" Name="Launcher_Loop" ObjectPath="\Events\Default Work Unit\Weapons\Launcher\Launcher_Loop" DurationType="Infinite"/>
-				<Event Id="3725660253" Name="Launcher_Shoot" ObjectPath="\Events\Default Work Unit\Weapons\Launcher\Launcher_Shoot" DurationType="OneShot" DurationMin="2.226427" DurationMax="2.358818"/>
-				<Event Id="3554861522" Name="Pickup_Health" ObjectPath="\Events\Default Work Unit\Pickups\Pickup_Health" DurationType="OneShot" DurationMin="1.449934" DurationMax="1.449934"/>
-				<Event Id="2040071657" Name="Shotgun_Shoot" ObjectPath="\Events\Default Work Unit\Weapons\Shotgun_Shoot" DurationType="OneShot" DurationMin="1.297827" DurationMax="1.375000"/>
-				<Event Id="2530127952" Name="Turret_Alert" ObjectPath="\Events\Default Work Unit\Enemies\Turret\Turret_Alert" DurationType="OneShot" DurationMin="2.038706" DurationMax="2.038706"/>
-				<Event Id="2638846805" Name="Turret_Damage" ObjectPath="\Events\Default Work Unit\Enemies\Turret\Turret_Damage" DurationType="OneShot" DurationMin="2.031562" DurationMax="2.031562"/>
-				<Event Id="124877840" Name="Turret_Death" ObjectPath="\Events\Default Work Unit\Enemies\Turret\Turret_Death" DurationType="OneShot" DurationMin="2.755784" DurationMax="2.755784"/>
-				<Event Id="2888394459" Name="Turret_Shoot" ObjectPath="\Events\Default Work Unit\Enemies\Turret\Turret_Shoot" DurationType="OneShot" DurationMin="1.356308" DurationMax="1.356308"/>
-				<Event Id="4006394725" Name="Weapon_Cooling" ObjectPath="\Events\Default Work Unit\Weapons\Weapon_Cooling" DurationType="OneShot" DurationMin="0.000000" DurationMax="2.666667"/>
+				<Event Id="85412153" Name="Ambience" ObjectPath="\Events\Default Work Unit\Ambience" DurationType="OneShot" DurationMin="20.916666" DurationMax="20.916666">
+					<IncludedMemoryFiles>
+						<File Id="144451089" Language="SFX">
+							<ShortName>BG LOOP.wav</ShortName>
+							<Path>SFX/BG LOOP_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2356394572" Name="Blaster_Shoot" ObjectPath="\Events\Default Work Unit\Weapons\Blaster_Shoot" DurationType="OneShot" DurationMin="1.966405" DurationMax="2.083333">
+					<IncludedMemoryFiles>
+						<File Id="598489229" Language="SFX">
+							<ShortName>WEAPON SHOT_01.wav</ShortName>
+							<Path>SFX/WEAPON SHOT_01_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1786804762" Name="Damage" ObjectPath="\Events\Default Work Unit\Player\Damage" DurationType="OneShot" DurationMin="0.735717" DurationMax="0.866513">
+					<IncludedMemoryFiles>
+						<File Id="436082298" Language="SFX">
+							<ShortName>DamageLastWhenYouDieA.wav</ShortName>
+							<Path>SFX/DamageLastWhenYouDieA_EFD873B2.wem</Path>
+						</File>
+						<File Id="505568494" Language="SFX">
+							<ShortName>DamageLastWhenYouDieB.wav</ShortName>
+							<Path>SFX/DamageLastWhenYouDieB_10F962F4.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2385628198" Name="Footsteps" ObjectPath="\Events\Default Work Unit\Player\Footsteps" DurationType="OneShot" DurationMin="0.104770" DurationMax="0.314063">
+					<IncludedMemoryFiles>
+						<File Id="293115992" Language="SFX">
+							<ShortName>FOOTSTEPS\Mt_StoneMarble_Pl_ClimbWeak_FootR00.wav</ShortName>
+							<Path>SFX/FOOTSTEPS/Mt_StoneMarble_Pl_ClimbWeak_FootR00_F6091223.wem</Path>
+						</File>
+						<File Id="293712972" Language="SFX">
+							<ShortName>FOOTSTEPS\Mt_StoneMarble_Pl_ClimbWeak_FootAccent00.wav</ShortName>
+							<Path>SFX/FOOTSTEPS/Mt_StoneMarble_Pl_ClimbWeak_FootAccent00_F6091223.wem</Path>
+						</File>
+						<File Id="668122874" Language="SFX">
+							<ShortName>FOOTSTEPS\Mt_StoneMarble_Pl_ClimbStrong_FootR00.wav</ShortName>
+							<Path>SFX/FOOTSTEPS/Mt_StoneMarble_Pl_ClimbStrong_FootR00_F6091223.wem</Path>
+						</File>
+						<File Id="899310293" Language="SFX">
+							<ShortName>FOOTSTEPS\Mt_StoneMarble_Pl_ClimbWeak_FootL00.wav</ShortName>
+							<Path>SFX/FOOTSTEPS/Mt_StoneMarble_Pl_ClimbWeak_FootL00_F6091223.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="4187423031" Name="Hoover_Alert" ObjectPath="\Events\Default Work Unit\Enemies\Hoverbot\Hoover_Alert" DurationType="OneShot" DurationMin="1.458333" DurationMax="1.458333">
+					<IncludedMemoryFiles>
+						<File Id="748147063" Language="SFX">
+							<ShortName>Hoover Alert\EnemyAlertB.wav</ShortName>
+							<Path>SFX/Hoover Alert/EnemyAlertB_10C4C929.wem</Path>
+						</File>
+						<File Id="1014984021" Language="SFX">
+							<ShortName>Hoover Alert\EnemyAlertA.wav</ShortName>
+							<Path>SFX/Hoover Alert/EnemyAlertA_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1065059636" Name="Hoover_Damage" ObjectPath="\Events\Default Work Unit\Enemies\Hoverbot\Hoover_Damage" DurationType="OneShot" DurationMin="0.149523" DurationMax="0.198242">
+					<IncludedMemoryFiles>
+						<File Id="305106936" Language="SFX">
+							<ShortName>Hoover Damage\DamageHooverA.wav</ShortName>
+							<Path>SFX/Hoover Damage/DamageHooverA_326F4F6C.wem</Path>
+						</File>
+						<File Id="654925048" Language="SFX">
+							<ShortName>Hoover Damage\DamageHooverC.wav</ShortName>
+							<Path>SFX/Hoover Damage/DamageHooverC_34BAA415.wem</Path>
+						</File>
+						<File Id="1008344150" Language="SFX">
+							<ShortName>Hoover Damage\DamageHooverB.wav</ShortName>
+							<Path>SFX/Hoover Damage/DamageHooverB_0FF3F3ED.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2899905971" Name="Hoover_Death" ObjectPath="\Events\Default Work Unit\Enemies\Hoverbot\Hoover_Death" DurationType="OneShot" DurationMin="2.125000" DurationMax="2.125000">
+					<IncludedMemoryFiles>
+						<File Id="465111060" Language="SFX">
+							<ShortName>Hoover Death\EnemyDeathA.wav</ShortName>
+							<Path>SFX/Hoover Death/EnemyDeathA_10C4C929.wem</Path>
+						</File>
+						<File Id="604180773" Language="SFX">
+							<ShortName>Hoover Death\EnemyDeathB.wav</ShortName>
+							<Path>SFX/Hoover Death/EnemyDeathB_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3975751376" Name="Hoover_Move" ObjectPath="\Events\Default Work Unit\Enemies\Hoverbot\Hoover_Move" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="100764059" Language="SFX">
+							<ShortName>HooverMovementLoop.wav</ShortName>
+							<Path>SFX/HooverMovementLoop_2E143434.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="848010948" Name="Hoover_Shoot" ObjectPath="\Events\Default Work Unit\Enemies\Hoverbot\Hoover_Shoot" DurationType="OneShot" DurationMin="1.016083" DurationMax="1.076503">
+					<IncludedMemoryFiles>
+						<File Id="185192701" Language="SFX">
+							<ShortName>Hoover Shoot\EnemyShotA.wav</ShortName>
+							<Path>SFX/Hoover Shoot/EnemyShotA_10C4C929.wem</Path>
+						</File>
+						<File Id="1033947677" Language="SFX">
+							<ShortName>Hoover Shoot\EnemyShotB.wav</ShortName>
+							<Path>SFX/Hoover Shoot/EnemyShotB_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2680315389" Name="Jetpack" ObjectPath="\Events\Default Work Unit\Player\Jetpack" DurationType="OneShot" DurationMin="6.250000" DurationMax="6.250000">
+					<IncludedMemoryFiles>
+						<File Id="217380904" Language="SFX">
+							<ShortName>JetPackUseLoop.wav</ShortName>
+							<Path>SFX/JetPackUseLoop_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3833651337" Name="Jump" ObjectPath="\Events\Default Work Unit\Player\Jump" DurationType="OneShot" DurationMin="0.516667" DurationMax="0.516667">
+					<IncludedMemoryFiles>
+						<File Id="517727977" Language="SFX">
+							<ShortName>JUMP.wav</ShortName>
+							<Path>SFX/JUMP_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="674522502" Name="Land" ObjectPath="\Events\Default Work Unit\Player\Land" DurationType="OneShot" DurationMin="0.515104" DurationMax="0.515104">
+					<IncludedMemoryFiles>
+						<File Id="972820306" Language="SFX">
+							<ShortName>FALL.wav</ShortName>
+							<Path>SFX/FALL_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3483890130" Name="Land_Damage" ObjectPath="\Events\Default Work Unit\Player\Land_Damage" DurationType="OneShot" DurationMin="2.284165" DurationMax="2.284165">
+					<IncludedMemoryFiles>
+						<File Id="720342183" Language="SFX">
+							<ShortName>DamageHooverA.wav</ShortName>
+							<Path>SFX/DamageHooverA_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="851704759" Name="Launcher_BuildUp" ObjectPath="\Events\Default Work Unit\Weapons\Launcher\Launcher_BuildUp" DurationType="OneShot" DurationMin="3.307350" DurationMax="3.307350">
+					<IncludedMemoryFiles>
+						<File Id="556663600" Language="SFX">
+							<ShortName>LauncherChargeBuild.wav</ShortName>
+							<Path>SFX/LauncherChargeBuild_CA2DB369.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="99515266" Name="Launcher_Loop" ObjectPath="\Events\Default Work Unit\Weapons\Launcher\Launcher_Loop" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="1022808314" Language="SFX">
+							<ShortName>LncherChargeLoop.wav</ShortName>
+							<Path>SFX/LncherChargeLoop_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3725660253" Name="Launcher_Shoot" ObjectPath="\Events\Default Work Unit\Weapons\Launcher\Launcher_Shoot" DurationType="OneShot" DurationMin="2.226427" DurationMax="2.358818">
+					<IncludedMemoryFiles>
+						<File Id="413992067" Language="SFX">
+							<ShortName>WEAPON SHOT_03.wav</ShortName>
+							<Path>SFX/WEAPON SHOT_03_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3991942870" Name="Music" ObjectPath="\Events\Default Work Unit\Music" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="383472724" Language="SFX">
+							<ShortName>mus_level_MASTER.wav</ShortName>
+							<Path>SFX/mus_level_MASTER_92B4E54F.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3554861522" Name="Pickup_Health" ObjectPath="\Events\Default Work Unit\Pickups\Pickup_Health" DurationType="OneShot" DurationMin="1.449934" DurationMax="1.449934">
+					<IncludedMemoryFiles>
+						<File Id="712233072" Language="SFX">
+							<ShortName>HealthPickup.wav</ShortName>
+							<Path>SFX/HealthPickup_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3684822814" Name="Pickup_Jetpack" ObjectPath="\Events\Default Work Unit\Pickups\Pickup_Jetpack" DurationType="OneShot" DurationMin="0.918113" DurationMax="0.918113">
+					<IncludedMemoryFiles>
+						<File Id="31564101" Language="SFX">
+							<ShortName>JetPackUseTriggerA.wav</ShortName>
+							<Path>SFX/JetPackUseTriggerA_4E9F312E.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1034690284" Name="Pickup_Weapon" ObjectPath="\Events\Default Work Unit\Pickups\Pickup_Weapon" DurationType="OneShot" DurationMin="0.326284" DurationMax="0.326284">
+					<IncludedMemoryFiles>
+						<File Id="649748350" Language="SFX">
+							<ShortName>WEAPON_PICKUP.wav</ShortName>
+							<Path>SFX/WEAPON_PICKUP_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2040071657" Name="Shotgun_Shoot" ObjectPath="\Events\Default Work Unit\Weapons\Shotgun_Shoot" DurationType="OneShot" DurationMin="1.297827" DurationMax="1.375000">
+					<IncludedMemoryFiles>
+						<File Id="492820606" Language="SFX">
+							<ShortName>WEAPON SHOT_02.wav</ShortName>
+							<Path>SFX/WEAPON SHOT_02_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2530127952" Name="Turret_Alert" ObjectPath="\Events\Default Work Unit\Enemies\Turret\Turret_Alert" DurationType="OneShot" DurationMin="2.038706" DurationMax="2.038706">
+					<IncludedMemoryFiles>
+						<File Id="636068831" Language="SFX">
+							<ShortName>Turret Alert\EnemyAlertD.wav</ShortName>
+							<Path>SFX/Turret Alert/EnemyAlertD_10C4C929.wem</Path>
+						</File>
+						<File Id="693593281" Language="SFX">
+							<ShortName>Turret Alert\EnemyAlertC.wav</ShortName>
+							<Path>SFX/Turret Alert/EnemyAlertC_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2638846805" Name="Turret_Damage" ObjectPath="\Events\Default Work Unit\Enemies\Turret\Turret_Damage" DurationType="OneShot" DurationMin="2.031562" DurationMax="2.031562">
+					<IncludedMemoryFiles>
+						<File Id="382213417" Language="SFX">
+							<ShortName>DamageTurretVariant.wav</ShortName>
+							<Path>SFX/DamageTurretVariant_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="124877840" Name="Turret_Death" ObjectPath="\Events\Default Work Unit\Enemies\Turret\Turret_Death" DurationType="OneShot" DurationMin="2.936565" DurationMax="2.936565">
+					<IncludedMemoryFiles>
+						<File Id="754265927" Language="SFX">
+							<ShortName>EnemyDeathC.wav</ShortName>
+							<Path>SFX/EnemyDeathC_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2888394459" Name="Turret_Shoot" ObjectPath="\Events\Default Work Unit\Enemies\Turret\Turret_Shoot" DurationType="OneShot" DurationMin="1.356308" DurationMax="1.356308">
+					<IncludedMemoryFiles>
+						<File Id="219180270" Language="SFX">
+							<ShortName>Turret Shoot\EnemyShotD.wav</ShortName>
+							<Path>SFX/Turret Shoot/EnemyShotD_10C4C929.wem</Path>
+						</File>
+						<File Id="537468479" Language="SFX">
+							<ShortName>Turret Shoot\EnemyShotC.wav</ShortName>
+							<Path>SFX/Turret Shoot/EnemyShotC_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="4006394725" Name="Weapon_Cooling" ObjectPath="\Events\Default Work Unit\Weapons\Weapon_Cooling" DurationType="OneShot" DurationMin="2.516998" DurationMax="2.666667">
+					<IncludedMemoryFiles>
+						<File Id="143808469" Language="SFX">
+							<ShortName>Cooling PistonA.wav</ShortName>
+							<Path>SFX/Cooling PistonA_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
 				<File Id="31564101" Language="SFX">
 					<ShortName>JetPackUseTriggerA.wav</ShortName>
-					<Path>SFX\JetPackUseTriggerA_10C4C929.wem</Path>
+					<Path>SFX/JetPackUseTriggerA_4E9F312E.wem</Path>
 				</File>
 				<File Id="100764059" Language="SFX">
 					<ShortName>HooverMovementLoop.wav</ShortName>
-					<Path>SFX\HooverMovementLoop_D79FB2B7.wem</Path>
+					<Path>SFX/HooverMovementLoop_2E143434.wem</Path>
 				</File>
 				<File Id="143808469" Language="SFX">
 					<ShortName>Cooling PistonA.wav</ShortName>
-					<Path>SFX\Cooling PistonA_10C4C929.wem</Path>
+					<Path>SFX/Cooling PistonA_10C4C929.wem</Path>
 				</File>
 				<File Id="144451089" Language="SFX">
 					<ShortName>BG LOOP.wav</ShortName>
-					<Path>SFX\BG LOOP_10C4C929.wem</Path>
+					<Path>SFX/BG LOOP_10C4C929.wem</Path>
 				</File>
 				<File Id="185192701" Language="SFX">
 					<ShortName>Hoover Shoot\EnemyShotA.wav</ShortName>
-					<Path>SFX\Hoover Shoot\EnemyShotA_10C4C929.wem</Path>
+					<Path>SFX/Hoover Shoot/EnemyShotA_10C4C929.wem</Path>
 				</File>
 				<File Id="217380904" Language="SFX">
 					<ShortName>JetPackUseLoop.wav</ShortName>
-					<Path>SFX\JetPackUseLoop_D79FB2B7.wem</Path>
+					<Path>SFX/JetPackUseLoop_10C4C929.wem</Path>
 				</File>
 				<File Id="219180270" Language="SFX">
 					<ShortName>Turret Shoot\EnemyShotD.wav</ShortName>
-					<Path>SFX\Turret Shoot\EnemyShotD_10C4C929.wem</Path>
+					<Path>SFX/Turret Shoot/EnemyShotD_10C4C929.wem</Path>
 				</File>
 				<File Id="293115992" Language="SFX">
 					<ShortName>FOOTSTEPS\Mt_StoneMarble_Pl_ClimbWeak_FootR00.wav</ShortName>
-					<Path>SFX\FOOTSTEPS\Mt_StoneMarble_Pl_ClimbWeak_FootR00_F6091223.wem</Path>
+					<Path>SFX/FOOTSTEPS/Mt_StoneMarble_Pl_ClimbWeak_FootR00_F6091223.wem</Path>
 				</File>
 				<File Id="293712972" Language="SFX">
 					<ShortName>FOOTSTEPS\Mt_StoneMarble_Pl_ClimbWeak_FootAccent00.wav</ShortName>
-					<Path>SFX\FOOTSTEPS\Mt_StoneMarble_Pl_ClimbWeak_FootAccent00_F6091223.wem</Path>
+					<Path>SFX/FOOTSTEPS/Mt_StoneMarble_Pl_ClimbWeak_FootAccent00_F6091223.wem</Path>
 				</File>
 				<File Id="305106936" Language="SFX">
 					<ShortName>Hoover Damage\DamageHooverA.wav</ShortName>
-					<Path>SFX\Hoover Damage\DamageHooverA_A72530D5.wem</Path>
+					<Path>SFX/Hoover Damage/DamageHooverA_326F4F6C.wem</Path>
 				</File>
 				<File Id="382213417" Language="SFX">
 					<ShortName>DamageTurretVariant.wav</ShortName>
-					<Path>SFX\DamageTurretVariant_10C4C929.wem</Path>
+					<Path>SFX/DamageTurretVariant_10C4C929.wem</Path>
 				</File>
 				<File Id="392932597" Language="SFX">
 					<ShortName>JetPackUseTriggerB.wav</ShortName>
-					<Path>SFX\JetPackUseTriggerB_10C4C929.wem</Path>
+					<Path>SFX/JetPackUseTriggerB_10C4C929.wem</Path>
 				</File>
 				<File Id="413992067" Language="SFX">
 					<ShortName>WEAPON SHOT_03.wav</ShortName>
-					<Path>SFX\WEAPON SHOT_03_10C4C929.wem</Path>
+					<Path>SFX/WEAPON SHOT_03_10C4C929.wem</Path>
 				</File>
 				<File Id="436082298" Language="SFX">
 					<ShortName>DamageLastWhenYouDieA.wav</ShortName>
-					<Path>SFX\DamageLastWhenYouDieA_EFD873B2.wem</Path>
+					<Path>SFX/DamageLastWhenYouDieA_EFD873B2.wem</Path>
 				</File>
 				<File Id="465111060" Language="SFX">
 					<ShortName>Hoover Death\EnemyDeathA.wav</ShortName>
-					<Path>SFX\Hoover Death\EnemyDeathA_10C4C929.wem</Path>
+					<Path>SFX/Hoover Death/EnemyDeathA_10C4C929.wem</Path>
 				</File>
 				<File Id="492820606" Language="SFX">
 					<ShortName>WEAPON SHOT_02.wav</ShortName>
-					<Path>SFX\WEAPON SHOT_02_10C4C929.wem</Path>
+					<Path>SFX/WEAPON SHOT_02_10C4C929.wem</Path>
 				</File>
 				<File Id="505568494" Language="SFX">
 					<ShortName>DamageLastWhenYouDieB.wav</ShortName>
-					<Path>SFX\DamageLastWhenYouDieB_10F962F4.wem</Path>
+					<Path>SFX/DamageLastWhenYouDieB_10F962F4.wem</Path>
+				</File>
+				<File Id="517727977" Language="SFX">
+					<ShortName>JUMP.wav</ShortName>
+					<Path>SFX/JUMP_10C4C929.wem</Path>
 				</File>
 				<File Id="537468479" Language="SFX">
 					<ShortName>Turret Shoot\EnemyShotC.wav</ShortName>
-					<Path>SFX\Turret Shoot\EnemyShotC_10C4C929.wem</Path>
+					<Path>SFX/Turret Shoot/EnemyShotC_10C4C929.wem</Path>
 				</File>
 				<File Id="556663600" Language="SFX">
 					<ShortName>LauncherChargeBuild.wav</ShortName>
-					<Path>SFX\LauncherChargeBuild_E7908E97.wem</Path>
+					<Path>SFX/LauncherChargeBuild_CA2DB369.wem</Path>
 				</File>
 				<File Id="598489229" Language="SFX">
 					<ShortName>WEAPON SHOT_01.wav</ShortName>
-					<Path>SFX\WEAPON SHOT_01_10C4C929.wem</Path>
+					<Path>SFX/WEAPON SHOT_01_10C4C929.wem</Path>
 				</File>
 				<File Id="604180773" Language="SFX">
 					<ShortName>Hoover Death\EnemyDeathB.wav</ShortName>
-					<Path>SFX\Hoover Death\EnemyDeathB_10C4C929.wem</Path>
+					<Path>SFX/Hoover Death/EnemyDeathB_10C4C929.wem</Path>
 				</File>
 				<File Id="636068831" Language="SFX">
 					<ShortName>Turret Alert\EnemyAlertD.wav</ShortName>
-					<Path>SFX\Turret Alert\EnemyAlertD_10C4C929.wem</Path>
+					<Path>SFX/Turret Alert/EnemyAlertD_10C4C929.wem</Path>
+				</File>
+				<File Id="649748350" Language="SFX">
+					<ShortName>WEAPON_PICKUP.wav</ShortName>
+					<Path>SFX/WEAPON_PICKUP_10C4C929.wem</Path>
 				</File>
 				<File Id="654925048" Language="SFX">
 					<ShortName>Hoover Damage\DamageHooverC.wav</ShortName>
-					<Path>SFX\Hoover Damage\DamageHooverC_A72530D5.wem</Path>
+					<Path>SFX/Hoover Damage/DamageHooverC_34BAA415.wem</Path>
 				</File>
 				<File Id="668122874" Language="SFX">
 					<ShortName>FOOTSTEPS\Mt_StoneMarble_Pl_ClimbStrong_FootR00.wav</ShortName>
-					<Path>SFX\FOOTSTEPS\Mt_StoneMarble_Pl_ClimbStrong_FootR00_F6091223.wem</Path>
+					<Path>SFX/FOOTSTEPS/Mt_StoneMarble_Pl_ClimbStrong_FootR00_F6091223.wem</Path>
 				</File>
 				<File Id="693593281" Language="SFX">
 					<ShortName>Turret Alert\EnemyAlertC.wav</ShortName>
-					<Path>SFX\Turret Alert\EnemyAlertC_10C4C929.wem</Path>
+					<Path>SFX/Turret Alert/EnemyAlertC_10C4C929.wem</Path>
 				</File>
 				<File Id="712233072" Language="SFX">
 					<ShortName>HealthPickup.wav</ShortName>
-					<Path>SFX\HealthPickup_10C4C929.wem</Path>
+					<Path>SFX/HealthPickup_10C4C929.wem</Path>
 				</File>
 				<File Id="720342183" Language="SFX">
 					<ShortName>DamageHooverA.wav</ShortName>
-					<Path>SFX\DamageHooverA_10C4C929.wem</Path>
+					<Path>SFX/DamageHooverA_10C4C929.wem</Path>
 				</File>
 				<File Id="748147063" Language="SFX">
 					<ShortName>Hoover Alert\EnemyAlertB.wav</ShortName>
-					<Path>SFX\Hoover Alert\EnemyAlertB_10C4C929.wem</Path>
+					<Path>SFX/Hoover Alert/EnemyAlertB_10C4C929.wem</Path>
 				</File>
 				<File Id="754265927" Language="SFX">
 					<ShortName>EnemyDeathC.wav</ShortName>
-					<Path>SFX\EnemyDeathC_10C4C929.wem</Path>
-				</File>
-				<File Id="897352756" Language="SFX">
-					<ShortName>Cooling PistonB.wav</ShortName>
-					<Path>SFX\Cooling PistonB_10C4C929.wem</Path>
+					<Path>SFX/EnemyDeathC_10C4C929.wem</Path>
 				</File>
 				<File Id="899310293" Language="SFX">
 					<ShortName>FOOTSTEPS\Mt_StoneMarble_Pl_ClimbWeak_FootL00.wav</ShortName>
-					<Path>SFX\FOOTSTEPS\Mt_StoneMarble_Pl_ClimbWeak_FootL00_F6091223.wem</Path>
+					<Path>SFX/FOOTSTEPS/Mt_StoneMarble_Pl_ClimbWeak_FootL00_F6091223.wem</Path>
+				</File>
+				<File Id="972820306" Language="SFX">
+					<ShortName>FALL.wav</ShortName>
+					<Path>SFX/FALL_10C4C929.wem</Path>
 				</File>
 				<File Id="1008344150" Language="SFX">
 					<ShortName>Hoover Damage\DamageHooverB.wav</ShortName>
-					<Path>SFX\Hoover Damage\DamageHooverB_A72530D5.wem</Path>
+					<Path>SFX/Hoover Damage/DamageHooverB_0FF3F3ED.wem</Path>
 				</File>
 				<File Id="1014984021" Language="SFX">
 					<ShortName>Hoover Alert\EnemyAlertA.wav</ShortName>
-					<Path>SFX\Hoover Alert\EnemyAlertA_10C4C929.wem</Path>
+					<Path>SFX/Hoover Alert/EnemyAlertA_10C4C929.wem</Path>
 				</File>
 				<File Id="1022808314" Language="SFX">
 					<ShortName>LncherChargeLoop.wav</ShortName>
-					<Path>SFX\LncherChargeLoop_D79FB2B7.wem</Path>
+					<Path>SFX/LncherChargeLoop_D79FB2B7.wem</Path>
 				</File>
 				<File Id="1033947677" Language="SFX">
 					<ShortName>Hoover Shoot\EnemyShotB.wav</ShortName>
-					<Path>SFX\Hoover Shoot\EnemyShotB_10C4C929.wem</Path>
+					<Path>SFX/Hoover Shoot/EnemyShotB_10C4C929.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
